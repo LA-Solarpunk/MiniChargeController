@@ -1307,7 +1307,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1327,8 +1327,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1359,7 +1359,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1392,10 +1392,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x01_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1415,6 +1415,17 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -1426,6 +1437,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1886,356 +1915,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM21BR61H106KE43L_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM21BR61H106KE43L"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C440198_C0805"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "GRM21BR61H106KE43L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C440198"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "muRata(村田)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GRM21BR61H106KE43L_1_1_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GRM21BR61H106KE43L_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM21BR61H106KE43L"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C440198_C0805"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "GRM21BR61H106KE43L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C440198"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "muRata(村田)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GRM21BR61H106KE43L_2_1_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin unspecified line
@@ -2819,6 +2498,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:100nF_(104)_±10%_16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3106,6 +2791,319 @@
 				)
 				(pin input line
 					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:10KΩ_(1002)_±1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10KΩ (1002) ±1%"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C25744_R0402"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10KΩ (1002) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25744"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10KΩ_(1002)_±1%_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:10nF_(103)_±10%_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10nF (103) ±10% 50V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C15195_C0402"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10nF (103) ±10% 50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C15195"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10nF_(103)_±10%_50V_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -5079,7 +5077,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:BQ25798RQMR"
+		(symbol "lcsc_imported:BQ25792RQMR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5095,7 +5093,7 @@
 					)
 				)
 			)
-			(property "Value" "BQ25798RQMR"
+			(property "Value" "BQ25792RQMR"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5105,7 +5103,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C2876593_QFN-29_L4_0-W4_0-P0_40-TL-BQ25792RQMR"
+			(property "Footprint" "lcsc_footprints:C2862876_QFN-29_L4_0-W4_0-P0_40-TL-BQ25792RQMR"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5116,7 +5114,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/cn/lit/gpn/bq25798"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302220800_Texas-Instruments-BQ25792RQMR_C2862876.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5127,7 +5125,7 @@
 					)
 				)
 			)
-			(property "Description" "BQ25798RQMR"
+			(property "Description" "BQ25792RQMR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5138,7 +5136,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2876593"
+			(property "LCSC" "C2862876"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5160,10 +5158,10 @@
 					)
 				)
 			)
-			(symbol "BQ25798RQMR_1_1"
+			(symbol "BQ25792RQMR_1_1"
 				(rectangle
-					(start -13.97 22.86)
-					(end 13.97 -17.78)
+					(start -13.97 20.32)
+					(end 13.97 -20.32)
 					(stroke
 						(width 0)
 						(type default)
@@ -5173,7 +5171,7 @@
 					)
 				)
 				(circle
-					(center -12.7 20.32)
+					(center -12.7 19.05)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -5436,7 +5434,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 -15.24 180)
+					(at -16.51 -17.78 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -5454,7 +5452,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 -12.7 180)
+					(at 16.51 -16.51 180)
 					(length 2.54)
 					(name "TS"
 						(effects
@@ -5472,7 +5470,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 -10.16 180)
+					(at 16.51 -13.97 180)
 					(length 2.54)
 					(name "ILIM_HIZ"
 						(effects
@@ -5490,7 +5488,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 -7.62 180)
+					(at 16.51 -11.43 180)
 					(length 2.54)
 					(name "BATP"
 						(effects
@@ -5508,7 +5506,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 -5.08 180)
+					(at 16.51 -8.89 180)
 					(length 2.54)
 					(name "BTST2"
 						(effects
@@ -5526,7 +5524,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 -2.54 180)
+					(at 16.51 -6.35 180)
 					(length 2.54)
 					(name "PROG"
 						(effects
@@ -5544,7 +5542,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 0 180)
+					(at 16.51 -3.81 180)
 					(length 2.54)
 					(name "INT#"
 						(effects
@@ -5562,7 +5560,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 2.54 180)
+					(at 16.51 -1.27 180)
 					(length 2.54)
 					(name "BAT"
 						(effects
@@ -5580,7 +5578,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 5.08 180)
+					(at 16.51 1.27 180)
 					(length 2.54)
 					(name "BAT"
 						(effects
@@ -5598,7 +5596,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 7.62 180)
+					(at 16.51 3.81 180)
 					(length 2.54)
 					(name "SDRV"
 						(effects
@@ -5616,7 +5614,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 10.16 180)
+					(at 16.51 6.35 180)
 					(length 2.54)
 					(name "SYS"
 						(effects
@@ -5634,7 +5632,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 12.7 180)
+					(at 16.51 8.89 180)
 					(length 2.54)
 					(name "SW2"
 						(effects
@@ -5652,7 +5650,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 15.24 180)
+					(at 16.51 11.43 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -5670,7 +5668,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 17.78 180)
+					(at 16.51 13.97 180)
 					(length 2.54)
 					(name "SW1"
 						(effects
@@ -5688,7 +5686,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 16.51 20.32 180)
+					(at 16.51 16.51 180)
 					(length 2.54)
 					(name "PMID"
 						(effects
@@ -6128,6 +6126,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:CL10A106KP8NNNC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL10A106KP8NNNC"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C19702_C0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CL10A106KP8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19702"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL10A106KP8NNNC_1_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:ERJ2RKF2940X"
 			(pin_numbers
 				(hide yes)
@@ -6404,175 +6571,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:GRM21BR61H106KE43L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM21BR61H106KE43L"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C440198_C0805"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "GRM21BR61H106KE43L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C440198"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "muRata(村田)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GRM21BR61H106KE43L_1_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc_imported:HCMA-0630-2R2-M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6724,6 +6722,181 @@
 				(pin unspecified line
 					(at 5.08 0 180)
 					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:HGC0603R5106M350NTHJ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at -0.0001 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u 35V"
+				(at -0.0001 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C22367827_C0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "HGC0603R5106M350NTHJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22367827"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Chinocera(华瓷)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HGC0603R5106M350NTHJ_1_1"
+				(polyline
+					(pts
+						(xy -0.5082 0.0002) (xy -2.5402 0.0002)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5082 -2.0319) (xy -0.5082 2.0322)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.5078 2.0322) (xy 0.5078 -2.0319)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5398 0.0002) (xy 0.5078 0.0002)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -7900,22 +8073,16 @@
 		(uuid "44ebe676-6fb5-4996-b607-770841586a0d")
 	)
 	(junction
-		(at 34.29 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e31eeb-50a2-43c6-aa92-40b9f80b4bd3")
-	)
-	(junction
-		(at 34.29 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03b7d03e-15d1-4b46-9059-3e498b81afae")
-	)
-	(junction
-		(at 195.58 54.61)
+		(at 195.58 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0920379f-01a1-48df-99f0-5f37d330bcd3")
+	)
+	(junction
+		(at 120.65 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bdbf3f1-dbef-487d-aac1-cf4567e69a26")
 	)
 	(junction
 		(at 15.24 95.25)
@@ -7924,34 +8091,28 @@
 		(uuid "0f521465-5fd1-423a-9c8c-edd2224bb603")
 	)
 	(junction
-		(at 19.05 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f9717d7-62bc-4e53-a338-9b3902288c21")
-	)
-	(junction
 		(at 19.05 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10f0d5a1-1f21-4f07-86d0-a8d8fd11e82f")
 	)
 	(junction
-		(at 41.91 146.05)
+		(at 121.92 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "137f9377-31f9-4ccf-b048-f72bdcb0d9a4")
+		(uuid "138c51e5-7cab-4f90-a546-15760afea1d2")
 	)
 	(junction
-		(at 195.58 44.45)
+		(at 195.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "156ab117-e4bc-4054-8042-d40a8831aa1d")
 	)
 	(junction
-		(at 26.67 123.19)
+		(at 41.91 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17f2a36f-c136-4cda-9f0e-443e7d46cac0")
+		(uuid "19745b34-0cda-4793-b500-97a2a3859e59")
 	)
 	(junction
 		(at 45.72 49.53)
@@ -7960,10 +8121,16 @@
 		(uuid "19b8cc35-13e7-4dc6-913f-96945a88f38c")
 	)
 	(junction
-		(at 129.54 143.51)
+		(at 41.91 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c5b5c22-e710-489d-ae19-ab1c47b5e7d1")
+		(uuid "1d7be424-e18a-42df-babf-9b4ff0df64da")
+	)
+	(junction
+		(at 49.53 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dbf71ad-970c-44b1-8be3-c5fdf8e927bf")
 	)
 	(junction
 		(at 255.27 26.67)
@@ -7972,10 +8139,10 @@
 		(uuid "2552f9d3-1def-4377-8cea-896556819aea")
 	)
 	(junction
-		(at 114.3 156.21)
+		(at 41.91 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f5fc5b4-bf81-4422-a2c7-638b0a8e6102")
+		(uuid "26376e5d-2ef2-48e9-8ff0-d30a722c423c")
 	)
 	(junction
 		(at 54.61 69.85)
@@ -7984,10 +8151,22 @@
 		(uuid "2f6b0580-fcc3-4136-82a4-7828dfa4d540")
 	)
 	(junction
-		(at 242.57 146.05)
+		(at 167.64 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cc8aac6-a093-4469-91fd-bb1de74ad109")
+		(uuid "302cbdf1-fa24-4764-b27d-ac2c520c1e76")
+	)
+	(junction
+		(at 63.5 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35ce99db-299f-4205-953e-85283b837ab3")
+	)
+	(junction
+		(at 26.67 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c131e50-cc76-4045-8dc3-1cca3462afde")
 	)
 	(junction
 		(at 66.04 71.12)
@@ -7996,22 +8175,16 @@
 		(uuid "3dd95264-dbe6-4ee9-a6a2-962d0eaa9b3d")
 	)
 	(junction
-		(at 19.05 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fee6475-b24e-4f2a-a1f5-3448cc443ec1")
-	)
-	(junction
 		(at 40.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "416d58dd-e536-48bf-8956-0dcffe59495c")
 	)
 	(junction
-		(at 134.62 49.53)
+		(at 26.67 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "424d91da-0a8f-493d-92a5-ead0a9826b69")
+		(uuid "4388e1ad-7d91-4cd3-b2b2-f6036cd2a980")
 	)
 	(junction
 		(at 88.9 49.53)
@@ -8020,22 +8193,28 @@
 		(uuid "462ef8c4-4892-45d4-a00e-2182bfb1df04")
 	)
 	(junction
-		(at 199.39 130.81)
+		(at 34.29 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a2ea544-153f-4e91-9f9b-70eb16bef9fb")
+	)
+	(junction
+		(at 189.23 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c803dff-dfa9-40eb-a775-4982eca1aa13")
 	)
 	(junction
-		(at 26.67 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5046d9ff-ca6e-4db5-bce4-9ce201dcc6c1")
-	)
-	(junction
-		(at 191.77 143.51)
+		(at 181.61 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "535abc14-e54b-4869-87bd-ef080319087b")
+	)
+	(junction
+		(at 134.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "551fe137-a603-4ede-95dd-4cd70c1a12c8")
 	)
 	(junction
 		(at 63.5 135.89)
@@ -8044,7 +8223,13 @@
 		(uuid "554d695b-425b-407c-96fa-63a83dff978a")
 	)
 	(junction
-		(at 208.28 146.05)
+		(at 34.29 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "558a45f6-5d53-4b9e-b77b-e7e18232d24f")
+	)
+	(junction
+		(at 198.12 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5866c1d1-eeb1-4700-9f46-7018f667aa32")
@@ -8056,16 +8241,16 @@
 		(uuid "597a96b8-b46e-4812-942e-4333929fa8b7")
 	)
 	(junction
-		(at 167.64 62.23)
+		(at 242.57 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c7f71c3-b48a-41ad-bed6-b1e557916476")
+		(uuid "610253d9-7571-499e-bfb4-3c50c14736ac")
 	)
 	(junction
-		(at 34.29 123.19)
+		(at 34.29 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6901491d-3ced-4cc3-89db-0d9cd9a2e3cc")
+		(uuid "633f0861-0ce5-473f-a1e8-ca8168724c27")
 	)
 	(junction
 		(at 120.65 57.15)
@@ -8074,10 +8259,16 @@
 		(uuid "6999d7dc-0857-479e-b385-e42d654141ae")
 	)
 	(junction
-		(at 121.92 146.05)
+		(at 26.67 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c0030d6-3138-4b46-9439-5b314885c4db")
+		(uuid "69f06369-08b7-44a9-b6be-f9b225127660")
+	)
+	(junction
+		(at 19.05 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b4e7fa7-efd8-4083-a111-bb42f8d7019c")
 	)
 	(junction
 		(at 48.26 69.85)
@@ -8086,13 +8277,19 @@
 		(uuid "6cbc818c-c903-4b7e-926a-7444bb6ad9d9")
 	)
 	(junction
+		(at 26.67 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa9ae86-0f3d-4666-9cb2-ffc405b0742f")
+	)
+	(junction
 		(at 45.72 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76d26502-4b86-4d7f-8fd0-931022ceb883")
 	)
 	(junction
-		(at 199.39 143.51)
+		(at 189.23 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "792899ef-d942-413b-8588-21bd4b0a1512")
@@ -8104,22 +8301,28 @@
 		(uuid "79299499-04ac-4c0b-9fcf-10ba042bffce")
 	)
 	(junction
-		(at 41.91 156.21)
+		(at 63.5 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7969f28a-8642-412e-9d08-77efd8853624")
+		(uuid "7c260e86-60be-44cf-b426-84d083cd1650")
 	)
 	(junction
-		(at 195.58 146.05)
+		(at 185.42 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e8df886-57b6-4517-8b11-308d6be87f7e")
 	)
 	(junction
-		(at 34.29 133.35)
+		(at 72.39 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85877fd9-dab0-4b36-b552-3ea1fd0309bd")
+		(uuid "869baac4-774b-4faa-a575-c926d660dcf6")
+	)
+	(junction
+		(at 80.01 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "870fb591-c649-4095-b452-c5072aa748ae")
 	)
 	(junction
 		(at 71.12 46.99)
@@ -8128,16 +8331,16 @@
 		(uuid "8b4f9d7e-66b0-4807-88b0-1d45d3689f0f")
 	)
 	(junction
-		(at 72.39 120.65)
+		(at 128.27 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92b7598f-93a6-4e14-aa65-bbd9000637f8")
+		(uuid "94e8919b-5d40-4d5a-8662-a6116365ea59")
 	)
 	(junction
-		(at 72.39 130.81)
+		(at 34.29 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b00c7ba-1ae8-4d0e-8aa9-4b97380b8c0e")
+		(uuid "9bcc288f-96ca-47b5-a3ef-c11232f0c37c")
 	)
 	(junction
 		(at 245.11 45.72)
@@ -8146,34 +8349,22 @@
 		(uuid "a3516892-7dc4-445f-a835-49c296e403ed")
 	)
 	(junction
-		(at 19.05 168.91)
+		(at 19.05 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a39c3196-9bf2-4272-af52-4e02b6a65ee8")
+		(uuid "acf9f02b-f28a-4c13-bf67-77811551e50c")
 	)
 	(junction
-		(at 26.67 146.05)
+		(at 19.05 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a683278c-fceb-4244-b472-2f2795feec5c")
+		(uuid "b30285a5-4552-4510-ba5a-d3c415e5c992")
 	)
 	(junction
 		(at 245.11 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5a321f3-92c6-4bc3-8e20-293db9268d8f")
-	)
-	(junction
-		(at 114.3 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9fa4dc9-b21f-4673-8b53-2a46f4934edb")
-	)
-	(junction
-		(at 19.05 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdc80a8f-0804-495f-8e78-fcc6569e84ce")
 	)
 	(junction
 		(at 66.04 78.74)
@@ -8188,13 +8379,7 @@
 		(uuid "c316457f-2138-4dab-9096-d058245bf73c")
 	)
 	(junction
-		(at 26.67 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c34f2380-e9a4-4d3b-ac41-caa23117a071")
-	)
-	(junction
-		(at 138.43 138.43)
+		(at 128.27 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f51d95-2a66-4859-ba68-c1d6f24f3c41")
@@ -8212,16 +8397,22 @@
 		(uuid "cb4673c8-c25c-44e0-bda3-6c01e96af825")
 	)
 	(junction
-		(at 251.46 90.17)
+		(at 242.57 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbce7f6e-4e67-4d57-b98d-f36e3b758fc3")
 	)
 	(junction
-		(at 63.5 130.81)
+		(at 27.94 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d420f88f-9cb8-47ef-b4cc-9e6fa7294640")
+		(uuid "d08dc043-877d-4193-aa3d-7529978ce823")
+	)
+	(junction
+		(at 19.05 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8076ea8-1845-4afc-858c-0b931625cca2")
 	)
 	(junction
 		(at 19.05 133.35)
@@ -8236,16 +8427,24 @@
 		(uuid "dbd0c05f-1cb2-4739-8675-575ac3b40497")
 	)
 	(junction
-		(at 96.52 39.37)
+		(at 114.3 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3ef8ac3-463d-43a9-8956-5c119e7a4a33")
+		(uuid "f8a30496-4417-42f2-a83d-4c89d0722dd0")
 	)
 	(junction
-		(at 63.5 120.65)
+		(at 72.39 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e744f9a0-364c-41fa-8773-709ebe7189f4")
+		(uuid "f9caf6c8-6e50-41b7-a8d7-76272e3eb4e1")
+	)
+	(no_connect
+		(at 33.02 77.47)
+		(uuid "3823fc9b-f787-4fa9-9771-3cafa9f6fb35")
+	)
+	(no_connect
+		(at 33.02 82.55)
+		(uuid "6bba8bb9-a53e-4e0a-bb13-dc3fb4a50a2d")
 	)
 	(no_connect
 		(at 134.62 62.23)
@@ -8254,6 +8453,22 @@
 	(no_connect
 		(at 134.62 59.69)
 		(uuid "a50c0bec-589b-4768-87eb-86b5d45ccd75")
+	)
+	(no_connect
+		(at 33.02 90.17)
+		(uuid "ad5dc533-fc34-4510-a42b-a772683da0e1")
+	)
+	(no_connect
+		(at 33.02 85.09)
+		(uuid "ae0bebf7-6858-4999-bbff-98d4dafea301")
+	)
+	(no_connect
+		(at 33.02 74.93)
+		(uuid "b4b2d82d-8775-4aee-a27b-475483c8f3cd")
+	)
+	(no_connect
+		(at 33.02 80.01)
+		(uuid "cae6e71d-3637-474c-9ced-50446a22d564")
 	)
 	(wire
 		(pts
@@ -8267,7 +8482,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 138.43 138.43)
+			(xy 127 118.11) (xy 128.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8287,6 +8502,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 156.21) (xy 41.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073aa977-9b84-4f40-9b2a-35d4d6dc28fa")
+	)
+	(wire
+		(pts
 			(xy 54.61 92.71) (xy 54.61 78.74)
 		)
 		(stroke
@@ -8297,7 +8522,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 177.8 66.04)
+			(xy 180.34 69.85) (xy 177.8 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8307,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 44.45) (xy 195.58 44.45)
+			(xy 191.77 48.26) (xy 195.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8317,7 +8542,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 26.67) (xy 257.81 26.67)
+			(xy 114.3 123.19) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa41a69-2a3f-4d68-95c5-a74550e7ea06")
+	)
+	(wire
+		(pts
+			(xy 245.11 26.67) (xy 265.43 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8327,7 +8562,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 146.05) (xy 208.28 146.05)
+			(xy 185.42 125.73) (xy 198.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8337,7 +8572,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 119.38) (xy 240.03 119.38)
+			(xy 229.87 116.84) (xy 232.41 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8377,13 +8612,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 133.35) (xy 41.91 133.35)
+			(xy 19.05 133.35) (xy 26.67 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1874a7e7-3fb7-45b7-89ec-e1638c04d5f7")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 121.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f42357-916d-4f9b-8d7a-2cb213ba96ef")
 	)
 	(wire
 		(pts
@@ -8397,13 +8642,43 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 44.45) (xy 191.77 46.99)
+			(xy 128.27 125.73) (xy 128.27 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6cdd61-93a2-44dc-9407-5d3e302ab2db")
+	)
+	(wire
+		(pts
+			(xy 191.77 48.26) (xy 191.77 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1aa62a79-2149-49a8-8643-b78459fd931c")
+	)
+	(wire
+		(pts
+			(xy 26.67 146.05) (xy 34.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8f877d-8150-4ef3-ab2a-7c64f3783549")
+	)
+	(wire
+		(pts
+			(xy 121.92 132.08) (xy 128.27 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdbf952-b696-4e16-bc7a-2316ac788aa1")
 	)
 	(wire
 		(pts
@@ -8417,13 +8692,33 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 167.64 62.23)
+			(xy 167.64 63.5) (xy 167.64 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1db55a3e-3473-4ad8-81a9-02be7b3d8b84")
+	)
+	(wire
+		(pts
+			(xy 72.39 120.65) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e804367-8078-4607-b906-22892a66c56f")
+	)
+	(wire
+		(pts
+			(xy 26.67 133.35) (xy 34.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd7134f-74be-4245-9fba-949d2018daf4")
 	)
 	(wire
 		(pts
@@ -8437,7 +8732,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 146.05) (xy 34.29 146.05)
+			(xy 19.05 146.05) (xy 26.67 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8447,7 +8742,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 72.39) (xy 167.64 72.39)
+			(xy 195.58 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8457,7 +8752,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 130.81) (xy 208.28 130.81)
+			(xy 189.23 110.49) (xy 198.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8477,17 +8772,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 156.21) (xy 34.29 156.21)
+			(xy 116.84 57.15) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a717b3c-21b4-45d9-812b-dc8a286ebb79")
+		(uuid "256e5009-0a74-43b7-8c04-9cd02ac06b2c")
 	)
 	(wire
 		(pts
-			(xy 96.52 39.37) (xy 96.52 49.53)
+			(xy 96.52 36.83) (xy 96.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8497,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 156.21) (xy 121.92 156.21)
+			(xy 120.65 142.24) (xy 128.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8507,7 +8802,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 67.31)
+			(xy 177.8 69.85) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8527,16 +8822,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 156.21) (xy 49.53 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "343bad30-4493-4c84-933b-00520bb458cc")
-	)
-	(wire
-		(pts
 			(xy 19.05 144.78) (xy 19.05 146.05)
 		)
 		(stroke
@@ -8547,7 +8832,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 146.05) (xy 195.58 146.05)
+			(xy 170.18 125.73) (xy 185.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8557,7 +8842,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 138.43) (xy 139.7 138.43)
+			(xy 128.27 118.11) (xy 129.54 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8577,7 +8862,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 80.01 120.65)
+			(xy 63.5 120.65) (xy 72.39 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8607,23 +8892,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 199.39 130.81)
+			(xy 189.23 106.68) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44727361-0e6f-4211-a4be-265a6195c95b")
-	)
-	(wire
-		(pts
-			(xy 104.14 36.83) (xy 104.14 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "447df6fe-4f7b-4c20-b27c-218e0bcc1ac8")
 	)
 	(wire
 		(pts
@@ -8677,17 +8952,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 123.19) (xy 34.29 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6f9bd3-3cd2-4357-b14f-a3adc78c1c02")
-	)
-	(wire
-		(pts
-			(xy 181.61 69.85) (xy 167.64 69.85)
+			(xy 181.61 73.66) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8697,7 +8962,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 119.38) (xy 190.5 119.38)
+			(xy 170.18 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8737,7 +9002,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 54.61) (xy 189.23 58.42)
+			(xy 189.23 58.42) (xy 189.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8747,7 +9012,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 121.92) (xy 190.5 121.92)
+			(xy 173.99 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8757,7 +9022,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 52.07) (xy 191.77 52.07)
+			(xy 167.64 55.88) (xy 191.77 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8767,27 +9032,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 123.19) (xy 41.91 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59da303a-a647-46ae-9733-b81367e4be4a")
-	)
-	(wire
-		(pts
-			(xy 34.29 146.05) (xy 41.91 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b6abeee-d150-4adc-8a78-37446129cb6c")
-	)
-	(wire
-		(pts
-			(xy 201.93 143.51) (xy 199.39 143.51)
+			(xy 191.77 123.19) (xy 189.23 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8797,7 +9042,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 143.51) (xy 199.39 143.51)
+			(xy 181.61 123.19) (xy 189.23 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8817,17 +9062,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 96.52 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fce1de8-38b8-4515-bedf-6826e6e12c18")
-	)
-	(wire
-		(pts
-			(xy 167.64 57.15) (xy 186.69 57.15)
+			(xy 167.64 60.96) (xy 186.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8837,17 +9072,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 139.7) (xy 242.57 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "627b9ae2-25cb-434e-b0e5-b744b225d8b2")
-	)
-	(wire
-		(pts
-			(xy 167.64 46.99) (xy 191.77 46.99)
+			(xy 167.64 50.8) (xy 191.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8877,7 +9102,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 49.53) (xy 167.64 49.53)
+			(xy 170.18 53.34) (xy 167.64 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8907,27 +9132,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 72.39 130.81)
+			(xy 26.67 156.21) (xy 34.29 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c8a38c6-9b77-4b40-b502-d0e1e1d269e5")
+		(uuid "6eba2076-369a-4b57-afd9-995119983e7f")
 	)
 	(wire
 		(pts
-			(xy 34.29 156.21) (xy 41.91 156.21)
+			(xy 34.29 133.35) (xy 41.91 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cf7d32f-f756-45d6-8b15-905574a008c9")
+		(uuid "6f6afe00-9711-44ce-963b-57f52fb57cf1")
 	)
 	(wire
 		(pts
-			(xy 191.77 54.61) (xy 195.58 54.61)
+			(xy 191.77 58.42) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8947,13 +9172,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 146.05) (xy 26.67 146.05)
+			(xy 236.22 133.35) (xy 242.57 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7093abad-7ed8-437b-88f4-a51275fef9a9")
+		(uuid "70f57d6c-8acc-4378-910b-6c4dcc756be0")
 	)
 	(wire
 		(pts
@@ -8967,7 +9192,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 114.3) (xy 254 114.3)
+			(xy 242.57 111.76) (xy 246.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8977,7 +9202,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 195.58 44.45)
+			(xy 196.85 48.26) (xy 195.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8997,7 +9222,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 146.05) (xy 208.28 146.05)
+			(xy 200.66 125.73) (xy 198.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9007,7 +9232,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 54.61) (xy 189.23 54.61)
+			(xy 167.64 58.42) (xy 189.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9017,7 +9242,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 146.05) (xy 208.28 140.97)
+			(xy 198.12 125.73) (xy 198.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9047,13 +9272,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 138.43) (xy 180.34 119.38)
+			(xy 170.18 118.11) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8e297cb3-a73b-4232-befb-8461acefbf12")
+	)
+	(wire
+		(pts
+			(xy 110.49 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f77499-43c6-41eb-b5a3-c83d9d6c97ff")
 	)
 	(wire
 		(pts
@@ -9067,6 +9302,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 125.73) (xy 128.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e503f6-d663-425e-848a-fcb64f1a4144")
+	)
+	(wire
+		(pts
 			(xy 88.9 46.99) (xy 88.9 49.53)
 		)
 		(stroke
@@ -9077,13 +9322,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 78.74) (xy 251.46 80.01)
+			(xy 242.57 78.74) (xy 242.57 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99b0a90f-ece2-4773-a72d-fec347498188")
+	)
+	(wire
+		(pts
+			(xy 34.29 146.05) (xy 41.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d435a0a-4111-4ac7-8079-1b527ac2bf83")
 	)
 	(wire
 		(pts
@@ -9107,16 +9362,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 146.05) (xy 139.7 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4b7c95-fe92-4f71-b81c-dcf5201160be")
-	)
-	(wire
-		(pts
 			(xy 120.65 57.15) (xy 134.62 57.15)
 		)
 		(stroke
@@ -9127,13 +9372,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 36.83) (xy 96.52 39.37)
+			(xy 125.73 123.19) (xy 129.54 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a24ad81d-5586-4b4f-bc34-5e8998db2c42")
+		(uuid "a160bba2-9ede-4f19-bb60-4adf26a48c27")
 	)
 	(wire
 		(pts
@@ -9147,17 +9392,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 120.65) (xy 72.39 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a688d519-c361-4834-a826-79c6b208f8eb")
-	)
-	(wire
-		(pts
-			(xy 184.15 116.84) (xy 190.5 116.84)
+			(xy 173.99 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9167,7 +9402,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 62.23) (xy 171.45 62.23)
+			(xy 167.64 66.04) (xy 171.45 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9184,16 +9419,6 @@
 			(type default)
 		)
 		(uuid "abcbed6a-5bc4-499b-8530-567334824ff7")
-	)
-	(wire
-		(pts
-			(xy 19.05 133.35) (xy 26.67 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae49224f-0b14-4ba5-9c6e-242624073b33")
 	)
 	(wire
 		(pts
@@ -9217,7 +9442,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 140.97) (xy 139.7 140.97)
+			(xy 124.46 120.65) (xy 129.54 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9234,6 +9459,16 @@
 			(type default)
 		)
 		(uuid "b1b6ad52-fc14-475c-aa18-bc3113f35dd9")
+	)
+	(wire
+		(pts
+			(xy 243.84 146.05) (xy 242.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25208a7-caff-437f-b1f4-2b489f399cef")
 	)
 	(wire
 		(pts
@@ -9254,6 +9489,16 @@
 			(type default)
 		)
 		(uuid "b93be146-82f7-43d4-bfb2-8773a71653fd")
+	)
+	(wire
+		(pts
+			(xy 34.29 123.19) (xy 41.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b967c523-915e-48e1-b66d-8ac9c5e2ba7c")
 	)
 	(wire
 		(pts
@@ -9284,26 +9529,6 @@
 			(type default)
 		)
 		(uuid "be2c3c94-dc63-4a5e-bc32-f2fd239fb88a")
-	)
-	(wire
-		(pts
-			(xy 26.67 133.35) (xy 34.29 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed13043-cd0d-4dd9-948c-6fbd4353612f")
-	)
-	(wire
-		(pts
-			(xy 43.18 72.39) (xy 43.18 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16d2a25-0d35-4bc0-997d-0eda701b2508")
 	)
 	(wire
 		(pts
@@ -9347,13 +9572,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 143.51) (xy 199.39 140.97)
+			(xy 189.23 123.19) (xy 189.23 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c82ad9d4-b9ac-4934-b5d0-52a7d40cb064")
+	)
+	(wire
+		(pts
+			(xy 26.67 123.19) (xy 34.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94dd954-0941-423e-b877-142ce56c4c81")
 	)
 	(wire
 		(pts
@@ -9377,7 +9612,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 130.81) (xy 80.01 130.81)
+			(xy 63.5 130.81) (xy 72.39 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9387,7 +9622,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 146.05) (xy 121.92 146.05)
+			(xy 120.65 132.08) (xy 121.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9407,6 +9642,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 146.05) (xy 49.53 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf3ff8b-8a50-43e3-81e4-85ebcc576d4e")
+	)
+	(wire
+		(pts
 			(xy 54.61 66.04) (xy 54.61 69.85)
 		)
 		(stroke
@@ -9417,7 +9662,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 69.85) (xy 190.5 69.85)
+			(xy 189.23 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9437,13 +9682,33 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 52.07) (xy 191.77 54.61)
+			(xy 191.77 55.88) (xy 191.77 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4cffe96-6efd-4c03-9c49-ba51babb8a9b")
+	)
+	(wire
+		(pts
+			(xy 43.18 72.39) (xy 43.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d528eb92-1956-4e69-b885-9d11f60da99f")
+	)
+	(wire
+		(pts
+			(xy 41.91 156.21) (xy 49.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e0f530-8dfb-4cf8-bfc6-11cea68de95b")
 	)
 	(wire
 		(pts
@@ -9467,7 +9732,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 90.17) (xy 251.46 90.17)
+			(xy 237.49 90.17) (xy 242.57 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9497,6 +9762,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 143.51) (xy 242.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d51aa4-9257-4ea4-8c78-640086098242")
+	)
+	(wire
+		(pts
 			(xy 66.04 71.12) (xy 73.66 71.12)
 		)
 		(stroke
@@ -9507,17 +9782,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 146.05) (xy 49.53 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebfa883-d6e8-429f-819c-c3d43552e964")
-	)
-	(wire
-		(pts
-			(xy 129.54 143.51) (xy 129.54 140.97)
+			(xy 124.46 113.03) (xy 124.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9527,7 +9792,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 58.42) (xy 191.77 58.42)
+			(xy 189.23 62.23) (xy 191.77 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9537,7 +9802,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 121.92) (xy 240.03 121.92)
+			(xy 229.87 119.38) (xy 232.41 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9547,17 +9812,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 143.51) (xy 132.08 143.51)
+			(xy 72.39 130.81) (xy 80.01 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f08abd82-5e18-4903-a8c9-68381171047d")
+		(uuid "f207e332-2b14-46b1-88ab-74519e4356b3")
 	)
 	(wire
 		(pts
-			(xy 180.34 143.51) (xy 191.77 143.51)
+			(xy 170.18 123.19) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9567,7 +9832,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 54.61) (xy 195.58 54.61)
+			(xy 196.85 58.42) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9597,13 +9862,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 44.45) (xy 167.64 44.45)
+			(xy 171.45 48.26) (xy 167.64 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbe53c4c-5b02-40f2-9af2-a22a2250e42a")
+	)
+	(wire
+		(pts
+			(xy 125.73 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc09e0c7-7920-430f-a22a-14904047d06f")
 	)
 	(wire
 		(pts
@@ -9636,7 +9911,7 @@
 		(uuid "ffcfcfac-1cf5-41ca-a314-a1f0b9228d85")
 	)
 	(label "SDA"
-		(at 210.82 146.05 0)
+		(at 200.66 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9646,7 +9921,17 @@
 		(uuid "0a1a4fbf-b244-4282-ad08-3b9e261770cb")
 	)
 	(label "INT#"
-		(at 167.64 64.77 0)
+		(at 110.49 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13b61708-d8d9-4c9d-aa27-392fa2faccf5")
+	)
+	(label "INT#"
+		(at 167.64 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9656,12 +9941,12 @@
 		(uuid "2b836bae-c815-4abe-9149-3c9f09458e96")
 	)
 	(label "PWR_CTL"
-		(at 242.57 139.7 0)
+		(at 236.22 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2c86d189-0856-4dc1-8bc1-2adce545e8e8")
 	)
@@ -9676,7 +9961,7 @@
 		(uuid "2fe76896-c5e1-4a62-9897-edb7573427f3")
 	)
 	(label "SCl"
-		(at 201.93 143.51 0)
+		(at 191.77 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9726,7 +10011,7 @@
 		(uuid "71e8d502-a29a-4457-a121-eff69781bdbc")
 	)
 	(label "SW1"
-		(at 127 54.61 180)
+		(at 125.73 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9736,7 +10021,7 @@
 		(uuid "7650c712-3443-488b-ac49-f0f1c69948b7")
 	)
 	(label "SW2"
-		(at 196.85 54.61 0)
+		(at 196.85 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9746,7 +10031,7 @@
 		(uuid "78c4b0c2-cc03-477f-98f9-7b43fff49ee7")
 	)
 	(label "CE"
-		(at 137.16 138.43 180)
+		(at 127 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9766,12 +10051,12 @@
 		(uuid "89a3919f-d28d-4b89-9320-117b9046545f")
 	)
 	(label "SDA"
-		(at 167.64 80.01 0)
+		(at 134.62 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b684005d-f278-47fa-8fd2-1c9e1154f8ad")
 	)
@@ -9796,7 +10081,7 @@
 		(uuid "b7968008-c4b3-47ff-8ba1-eef0e1f8642d")
 	)
 	(label "ILIM_HIZ"
-		(at 167.64 74.93 0)
+		(at 167.64 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9806,7 +10091,7 @@
 		(uuid "be1b3e35-f4b7-4685-921a-d643f05fe1b0")
 	)
 	(label "ILIM_HIZ"
-		(at 246.38 90.17 180)
+		(at 237.49 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9816,7 +10101,7 @@
 		(uuid "c6c28389-a020-47b8-ad2a-941324d5e1ca")
 	)
 	(label "PWR_CTL"
-		(at 180.34 140.97 0)
+		(at 170.18 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9856,7 +10141,7 @@
 		(uuid "e9bf57a2-aedb-4664-8952-5ce7e1dd8211")
 	)
 	(label "TS"
-		(at 167.64 77.47 0)
+		(at 167.64 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9866,7 +10151,7 @@
 		(uuid "f1b75438-787f-435f-b031-5d2b46f628d0")
 	)
 	(label "SW1"
-		(at 196.85 44.45 0)
+		(at 196.85 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9876,7 +10161,7 @@
 		(uuid "f4d90025-819e-4f7e-97ad-696dcc8cd38d")
 	)
 	(label "SW2"
-		(at 190.5 69.85 0)
+		(at 190.5 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9884,6 +10169,109 @@
 			(justify left bottom)
 		)
 		(uuid "f5eebd47-7337-44a9-acb3-25f3beb20c49")
+	)
+	(symbol
+		(lib_id "lcsc_imported:100KΩ_(1003)_±1%")
+		(at 114.3 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04392e9e-f3ee-45ea-8b67-b543263bb0c6")
+		(property "Reference" "R19"
+			(at 107.95 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 107.95 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C25741_R0402"
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 114.427 115.824 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100KΩ (1003) ±1%"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55ce9bcf-f20f-4614-ba82-fcf040dcf46d")
+		)
+		(pin "2"
+			(uuid "4d09c582-5141-4e6c-837e-7c73800f70a0")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "100nF_(104)_±10%_16V_3")
@@ -9991,7 +10379,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:B2B-PH-SM4-TB_(LF)(SN)")
-		(at 246.38 120.65 0)
+		(at 238.76 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10002,7 +10390,7 @@
 		(fields_autoplaced yes)
 		(uuid "06e0582d-a7ba-49d3-b8aa-469eda7243fd")
 		(property "Reference" "CN1"
-			(at 254 119.3799 0)
+			(at 246.38 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10013,7 +10401,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-SM4-TB (LF)(SN)"
-			(at 254 121.9199 0)
+			(at 246.38 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10024,7 +10412,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C160352_CONN-SMD_B2B-PH-SM4-TB-LF-SN"
-			(at 246.38 130.81 0)
+			(at 238.76 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,7 +10423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B2B-PH-SM4-TB-LF-SN_C160352.pdf"
-			(at 244.094 120.523 0)
+			(at 236.474 117.983 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10046,7 +10434,7 @@
 			)
 		)
 		(property "Description" "B2B-PH-SM4-TB (LF)(SN)"
-			(at 246.38 120.65 0)
+			(at 238.76 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10057,7 +10445,7 @@
 			)
 		)
 		(property "LCSC" "C160352"
-			(at 246.38 120.65 0)
+			(at 238.76 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,7 +10456,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 246.38 120.65 0)
+			(at 238.76 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,7 +10489,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:CH32V003J4M6_C5346354")
-		(at 160.02 142.24 0)
+		(at 149.86 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10112,7 +10500,7 @@
 		(fields_autoplaced yes)
 		(uuid "06efeb97-72d8-4971-babd-070c54528beb")
 		(property "Reference" "U2"
-			(at 160.02 130.81 0)
+			(at 149.86 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10122,7 +10510,7 @@
 			)
 		)
 		(property "Value" "CH32V003J4M6_C5346354"
-			(at 160.02 133.35 0)
+			(at 149.86 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +10520,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C5346354_SOP-8_L4_9-W3_8-P1_27-LS6_0-BL"
-			(at 160.02 152.4 0)
+			(at 149.86 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10143,7 +10531,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403131351_WCH-Jiangsu-Qin-Heng-CH32V003J4M6_C5346354.pdf"
-			(at 157.734 142.113 0)
+			(at 147.574 121.793 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +10542,7 @@
 			)
 		)
 		(property "Description" "CH32V003J4M6_C5346354"
-			(at 160.02 142.24 0)
+			(at 149.86 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,7 +10553,7 @@
 			)
 		)
 		(property "LCSC" "C5346354"
-			(at 160.02 142.24 0)
+			(at 149.86 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10176,7 +10564,7 @@
 			)
 		)
 		(property "Manufacturer" "WCH(南京沁恒)"
-			(at 160.02 142.24 0)
+			(at 149.86 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-46-3"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 24.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10456,7 +10844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 121.92 0)
+		(at 229.87 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10467,7 +10855,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c508a48-82dc-4cd4-bc27-616f21985bd4")
 		(property "Reference" "#PWR040"
-			(at 237.49 128.27 0)
+			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10478,7 +10866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 127 0)
+			(at 229.87 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10488,7 +10876,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 237.49 121.92 0)
+			(at 229.87 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10499,7 +10887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 121.92 0)
+			(at 229.87 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10510,7 +10898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 121.92 0)
+			(at 229.87 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10638,8 +11026,85 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:100KΩ_(1003)_±1%")
-		(at 138.43 133.35 90)
+		(lib_id "power:GND")
+		(at 251.46 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f190b13-2057-4a28-ae9d-e01d445a63ff")
+		(property "Reference" "#PWR043"
+			(at 251.46 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.524 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C377773_C0805"
+			(at 251.46 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5406867f-25c1-49b6-ba3b-758d950d2856")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:BQ25792RQMR")
+		(at 151.13 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10648,9 +11113,192 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "115bbb40-bb32-4be0-a566-af13212e839b")
-		(property "Reference" "R15"
-			(at 140.97 132.0799 90)
+		(uuid "0f8c8e36-9ba2-4325-90a4-0fb55821a7b7")
+		(property "Reference" "U4"
+			(at 151.13 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ25792RQMR"
+			(at 151.13 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2862876_QFN-29_L4_0-W4_0-P0_40-TL-BQ25792RQMR"
+			(at 151.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302220800_Texas-Instruments-BQ25792RQMR_C2862876.pdf"
+			(at 148.844 64.643 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BQ25792RQMR"
+			(at 151.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2862876"
+			(at 151.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 151.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "26"
+			(uuid "c22d863d-76f9-47f2-abff-8d3d0b8fe5ae")
+		)
+		(pin "1"
+			(uuid "4ea29d77-6b0f-4550-806a-a324d5d8e339")
+		)
+		(pin "21"
+			(uuid "310a67ca-c0fe-4673-95ec-7a99dfdd2b7c")
+		)
+		(pin "3"
+			(uuid "3f1427cb-e6eb-400a-a694-a305200ee10e")
+		)
+		(pin "15"
+			(uuid "66e581fa-6d83-4d9c-a879-eefcfa0a2481")
+		)
+		(pin "12"
+			(uuid "57c7f53a-8e2a-4d1f-8f8a-e517bf137fe5")
+		)
+		(pin "5"
+			(uuid "6b201f21-2711-4de4-adfd-0c5e8df529d8")
+		)
+		(pin "14"
+			(uuid "2833b784-44b7-4f05-b74e-743c07c77acd")
+		)
+		(pin "8"
+			(uuid "4583c61e-0c2a-477a-a415-656b8485b98b")
+		)
+		(pin "24"
+			(uuid "bf12bae0-2697-4848-8f5b-4f056d9d97ed")
+		)
+		(pin "16"
+			(uuid "970b5086-dc84-406c-9866-481fe6314d94")
+		)
+		(pin "11"
+			(uuid "69012ce5-02cf-4bc6-9d69-840d64c717f3")
+		)
+		(pin "2"
+			(uuid "f4a41372-53ad-47f6-8ac8-9a3b9b6a70d7")
+		)
+		(pin "13"
+			(uuid "240bb491-f430-43ee-bbc3-71ab59a83882")
+		)
+		(pin "29"
+			(uuid "9661ae27-7b2b-42e2-a693-af06d2b56135")
+		)
+		(pin "27"
+			(uuid "4080d5cf-c1cc-4c58-9e01-c64302a24f63")
+		)
+		(pin "6"
+			(uuid "de402ff7-37d8-45a3-9498-7d9406631091")
+		)
+		(pin "19"
+			(uuid "330e048d-e4f9-4857-a97b-19682ff966c7")
+		)
+		(pin "23"
+			(uuid "237a538a-bee5-48d8-bc64-1beada6c9049")
+		)
+		(pin "9"
+			(uuid "623d3ca8-21b2-4e50-bdf7-bacce61e529a")
+		)
+		(pin "18"
+			(uuid "dc60686e-aac8-417b-a1fc-a416484a8f7f")
+		)
+		(pin "28"
+			(uuid "59ffd8a1-6c1d-46ff-9dc6-d0c2dd59ad73")
+		)
+		(pin "25"
+			(uuid "3239123c-96b6-4c1f-b7a3-7d45861e2393")
+		)
+		(pin "4"
+			(uuid "4cb58b6b-242f-4457-a1fc-a76fc632ec89")
+		)
+		(pin "7"
+			(uuid "f75ad32f-733b-4787-85ac-1c763b1959bb")
+		)
+		(pin "20"
+			(uuid "c963966c-e64a-465c-af2d-18c7175bd7f2")
+		)
+		(pin "10"
+			(uuid "ce2e3018-48a6-48cb-97dd-9ce18f69e96a")
+		)
+		(pin "17"
+			(uuid "4c33df06-79b9-4f38-8eeb-ca595ead64cb")
+		)
+		(pin "22"
+			(uuid "db0a6117-7b2c-474e-bb3a-a911393a9d0e")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "100KΩ_(1003)_±1%_1")
+		(lib_id "lcsc_imported:100KΩ_(1003)_±1%")
+		(at 242.57 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10496ccd-51e9-40c3-9470-222ce215d620")
+		(property "Reference" "R17"
+			(at 235.966 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10661,7 +11309,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 140.97 134.6199 90)
+			(at 235.966 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10672,7 +11320,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C25741_R0402"
-			(at 148.59 133.35 0)
+			(at 252.73 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10683,7 +11331,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 138.303 135.636 0)
+			(at 242.443 140.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10694,7 +11342,7 @@
 			)
 		)
 		(property "Description" "100KΩ (1003) ±1%"
-			(at 138.43 133.35 0)
+			(at 242.57 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10705,7 +11353,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 138.43 133.35 0)
+			(at 242.57 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10716,7 +11364,111 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 138.43 133.35 0)
+			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9038d19f-3d89-459e-9413-2b6939ef6f87")
+		)
+		(pin "2"
+			(uuid "d7e2da16-b786-4a78-a470-41053258c838")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:100KΩ_(1003)_±1%")
+		(at 128.27 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "115bbb40-bb32-4be0-a566-af13212e839b")
+		(property "Reference" "R15"
+			(at 130.81 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 130.81 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C25741_R0402"
+			(at 138.43 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 128.143 115.316 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100KΩ (1003) ±1%"
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,6 +11570,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 19.05 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ecaa346-582d-4c09-9d94-f0f84a465fcd")
+		(property "Reference" "C2"
+			(at 21.082 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 21.082 151.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 29.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 18.923 153.416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 19.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 19.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 19.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3e1df74-3201-49fd-97bc-1ea68ffbb689")
+		)
+		(pin "2"
+			(uuid "444fdb52-a3a4-4f94-a21e-42a1d38f3cf5")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10929,7 +11784,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 171.45 62.23 0)
+		(at 171.45 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10939,7 +11794,7 @@
 		(dnp no)
 		(uuid "2077bc78-470a-4aec-98ea-5f428ace5cb0")
 		(property "Reference" "#PWR016"
-			(at 171.45 66.04 0)
+			(at 171.45 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +11805,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 174.244 59.436 0)
+			(at 174.244 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10960,7 +11815,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 171.45 62.23 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10971,7 +11826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 62.23 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10982,7 +11837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 171.45 62.23 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11109,8 +11964,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 26.67 128.27 90)
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 19.05 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11118,9 +11973,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "25809563-c297-4dd9-9d4a-36973f80cb7e")
-		(property "Reference" "C9"
-			(at 28.448 126.746 90)
+		(uuid "24e3f78e-d44c-4011-9215-60c099da7968")
+		(property "Reference" "C16"
+			(at 21.082 172.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11131,7 +11986,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 27.94 130.556 90)
+			(at 21.082 174.752 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11141,8 +11996,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 36.83 128.27 0)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 29.21 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11152,8 +12007,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 26.543 130.556 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 18.923 176.276 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,8 +12018,8 @@
 				)
 			)
 		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 26.67 128.27 0)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 19.05 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,8 +12029,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
-			(at 26.67 128.27 0)
+		(property "LCSC" "C19702"
+			(at 19.05 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11185,8 +12040,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 26.67 128.27 0)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 19.05 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11195,17 +12050,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "da466314-b66d-4679-9921-070d09f367cf")
 		)
 		(pin "1"
-			(uuid "763f900b-ec82-47eb-b2bf-75c4386c8973")
+			(uuid "6c7b21b6-b7a2-495e-b6f4-e1f8ddb4e797")
+		)
+		(pin "2"
+			(uuid "1bd160ba-3ba7-45d2-b996-bd0b9efe945b")
 		)
 		(instances
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C9")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11213,7 +12068,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 184.15 116.84 0)
+		(at 173.99 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11223,7 +12078,7 @@
 		(dnp no)
 		(uuid "281fc374-8040-4cce-80d1-2e293f508122")
 		(property "Reference" "#PWR034"
-			(at 184.15 120.65 0)
+			(at 173.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11234,7 +12089,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 186.944 114.046 0)
+			(at 176.784 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11244,7 +12099,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 184.15 116.84 0)
+			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +12110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 116.84 0)
+			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,7 +12121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 184.15 116.84 0)
+			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +12223,7 @@
 	(symbol
 		(lib_name "47nF_(473)_±10%_50V_1")
 		(lib_id "lcsc_imported:47nF_(473)_±10%_50V")
-		(at 185.42 69.85 180)
+		(at 185.42 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11378,7 +12233,7 @@
 		(dnp no)
 		(uuid "2e437a02-953e-4eb9-a1f7-c631b1f6322b")
 		(property "Reference" "C20"
-			(at 188.214 71.12 0)
+			(at 188.214 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11388,7 +12243,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 188.214 68.834 0)
+			(at 188.214 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11398,7 +12253,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C1622_C0603"
-			(at 185.42 59.69 0)
+			(at 185.42 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11409,7 +12264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf"
-			(at 187.706 69.977 0)
+			(at 187.706 73.787 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11420,7 +12275,7 @@
 			)
 		)
 		(property "Description" "47nF (473) ±10% 50V"
-			(at 185.42 69.85 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11431,7 +12286,7 @@
 			)
 		)
 		(property "LCSC" "C1622"
-			(at 185.42 69.85 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11442,7 +12297,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 185.42 69.85 0)
+			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,8 +12323,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 34.29 128.27 90)
+		(lib_id "power:GND")
+		(at 265.43 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11477,31 +12332,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "30ff1a49-3fe6-4634-880c-0498d428cfd2")
-		(property "Reference" "C10"
-			(at 36.068 126.746 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 35.56 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 44.45 128.27 0)
+		(fields_autoplaced yes)
+		(uuid "353fe613-2475-4c6d-8005-948dad6d775e")
+		(property "Reference" "#PWR032"
+			(at 265.43 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,9 +12345,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 34.163 130.556 0)
-			(hide yes)
+		(property "Value" "GND"
+			(at 265.43 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11522,88 +12355,8 @@
 				)
 			)
 		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 34.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 34.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 34.29 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d99e47f9-7c4c-4e3c-9e1e-391afa18a1f8")
-		)
-		(pin "1"
-			(uuid "329fd678-6ed4-44ff-a0bc-6e69772c7227")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 135.89 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32f92eec-7719-4f62-8e36-7a668600ff78")
-		(property "Reference" "JP2"
-			(at 135.89 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 137.1599 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 135.89 143.51 0)
+		(property "Footprint" "lcsc_footprints:C377773_C0805"
+			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11614,7 +12367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 143.51 0)
+			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11624,8 +12377,8 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 135.89 143.51 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,15 +12389,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "10d86a53-a748-4c9c-9a7b-beb15eb645b5")
-		)
-		(pin "2"
-			(uuid "b488fcc9-344a-45aa-95da-2a33081c718a")
+			(uuid "dd8b13aa-9cad-49f4-bb00-afc6b2dc5717")
 		)
 		(instances
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "JP2")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11743,6 +12493,343 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36ab9336-369e-444d-bcf6-4ee39e68c206")
+		(property "Reference" "#FLG05"
+			(at 27.94 167.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 27.94 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7f72528-14b0-4a17-9dbb-4857170f3193")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36de7395-3822-4f38-940e-e59b933b81e9")
+		(property "Reference" "#FLG06"
+			(at 116.84 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdbd6df4-cadf-4ddd-9281-e8db23789f53")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b68df2b-229f-43bb-aee8-0087a6aacc3f")
+		(property "Reference" "#PWR045"
+			(at 114.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 111.76 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 114.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b2f6bdb-f043-4aab-9e0c-95c42e2e52f9")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:10nF_(103)_±10%_50V")
+		(at 247.65 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bbe7b53-2c3a-43d3-b061-f441ec06c2f6")
+		(property "Reference" "C23"
+			(at 247.65 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 247.65 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C15195_C0402"
+			(at 247.65 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+			(at 249.936 146.177 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10nF (103) ±10% 50V"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3883c44-db2d-4c05-b79a-564121a1293c")
+		)
+		(pin "1"
+			(uuid "7436b70d-b126-4069-bab2-9f21e0d650fa")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 224.79 146.05 0)
 		(unit 1)
@@ -11821,7 +12908,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:100Ω_(1000)_±1%")
-		(at 200.66 72.39 0)
+		(at 200.66 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11831,7 +12918,7 @@
 		(dnp no)
 		(uuid "422046c9-cb1a-4e07-b714-5ea5cc05b094")
 		(property "Reference" "R7"
-			(at 200.914 75.438 0)
+			(at 200.914 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11841,7 +12928,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 200.914 77.978 0)
+			(at 200.914 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11851,7 +12938,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C25076_R0402"
-			(at 200.66 82.55 0)
+			(at 200.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11862,7 +12949,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 198.374 72.263 0)
+			(at 198.374 76.073 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11873,7 +12960,7 @@
 			)
 		)
 		(property "Description" "100Ω (1000) ±1%"
-			(at 200.66 72.39 0)
+			(at 200.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11884,7 +12971,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 200.66 72.39 0)
+			(at 200.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11895,7 +12982,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 200.66 72.39 0)
+			(at 200.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11922,7 +13009,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 191.77 58.42 0)
+		(at 191.77 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11932,7 +13019,7 @@
 		(dnp no)
 		(uuid "4752ce10-054a-4296-a58a-7e2dca19cf0d")
 		(property "Reference" "#PWR012"
-			(at 191.77 62.23 0)
+			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11943,7 +13030,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 195.58 58.42 0)
+			(at 195.58 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11953,7 +13040,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 191.77 58.42 0)
+			(at 191.77 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11964,7 +13051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 58.42 0)
+			(at 191.77 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +13062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 191.77 58.42 0)
+			(at 191.77 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11992,110 +13079,6 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GRM21BR61H106KE43L_2")
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 72.39 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4aa84980-35de-462c-8756-787836f4c1c8")
-		(property "Reference" "C2"
-			(at 74.168 124.206 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 73.66 128.016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 82.55 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 72.263 128.016 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 72.39 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 72.39 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 72.39 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f3e8f43-490d-4a3d-9ff0-5c1a59af770c")
-		)
-		(pin "1"
-			(uuid "5f96cd0e-b3f9-4510-9804-aa763e87b539")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12204,7 +13187,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 171.45 44.45 0)
+		(at 171.45 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12214,7 +13197,7 @@
 		(dnp no)
 		(uuid "4e05e32c-9645-4ca4-a903-bfd1c1558152")
 		(property "Reference" "#PWR014"
-			(at 171.45 48.26 0)
+			(at 171.45 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12225,7 +13208,7 @@
 			)
 		)
 		(property "Value" "VPMID"
-			(at 173.736 40.386 0)
+			(at 173.736 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12235,7 +13218,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 171.45 44.45 0)
+			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12246,7 +13229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 44.45 0)
+			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12257,7 +13240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 171.45 44.45 0)
+			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12281,7 +13264,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:1nF_(102)_±10%_50V")
-		(at 186.69 60.96 90)
+		(at 186.69 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12291,7 +13274,7 @@
 		(dnp no)
 		(uuid "4eecb9f1-015f-4c1e-8e83-fb30cd2a507f")
 		(property "Reference" "C12"
-			(at 189.23 60.452 90)
+			(at 189.23 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12302,7 +13285,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 189.23 62.992 90)
+			(at 189.23 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12313,7 +13296,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C1523_C0402"
-			(at 196.85 60.96 0)
+			(at 196.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12324,7 +13307,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B102K500NT_C1523.pdf"
-			(at 186.563 63.246 0)
+			(at 186.563 67.056 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12335,7 +13318,7 @@
 			)
 		)
 		(property "Description" "1nF (102) ±10% 50V"
-			(at 186.69 60.96 0)
+			(at 186.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12346,7 +13329,7 @@
 			)
 		)
 		(property "LCSC" "C1523"
-			(at 186.69 60.96 0)
+			(at 186.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12357,7 +13340,7 @@
 			)
 		)
 		(property "Manufacturer" "FH(风华)"
-			(at 186.69 60.96 0)
+			(at 186.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12383,9 +13366,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 121.92 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f4fb228-0b62-42e2-b4aa-87d69bc2097e")
+		(property "Reference" "#PWR044"
+			(at 121.92 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.714 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 121.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 121.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56007b77-04c4-464e-ab2d-bdd1459e37b9")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "100nF_(104)_±10%_16V_3")
 		(lib_id "lcsc_imported:100nF_(104)_±10%_16V")
-		(at 121.92 151.13 90)
+		(at 128.27 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12395,7 +13455,7 @@
 		(dnp no)
 		(uuid "4ff6e0a7-5791-45f7-867b-44a5ef98b11d")
 		(property "Reference" "C22"
-			(at 123.19 149.098 90)
+			(at 129.54 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12406,7 +13466,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 123.19 152.908 90)
+			(at 129.54 138.938 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12417,7 +13477,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C1525_C0402"
-			(at 132.08 151.13 0)
+			(at 138.43 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +13488,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 121.793 153.416 0)
+			(at 128.143 139.446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +13499,7 @@
 			)
 		)
 		(property "Description" "100nF (104) ±10% 16V"
-			(at 121.92 151.13 0)
+			(at 128.27 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12450,7 +13510,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 121.92 151.13 0)
+			(at 128.27 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12461,7 +13521,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 121.92 151.13 0)
+			(at 128.27 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12481,6 +13541,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:HGC0603R5106M350NTHJ")
+		(at 26.67 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51c6efe9-21f5-4f76-8c03-48c97346924b")
+		(property "Reference" "U6"
+			(at 27.94 126.492 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u 35V"
+			(at 22.352 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22367827_C0603"
+			(at 36.83 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+			(at 26.543 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HGC0603R5106M350NTHJ"
+			(at 26.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22367827"
+			(at 26.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 26.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "796d12dc-90ec-47d7-920c-5f4952d747ae")
+		)
+		(pin "2"
+			(uuid "8806fbd9-6299-42b6-9af9-f8af17e98df5")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12642,7 +13805,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 138.43 120.65 0)
+		(at 128.27 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12652,7 +13815,7 @@
 		(dnp no)
 		(uuid "57f4f636-d482-4583-9fc0-531f164ae4a2")
 		(property "Reference" "#PWR036"
-			(at 138.43 124.46 0)
+			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12663,7 +13826,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 141.224 117.856 0)
+			(at 131.064 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12673,7 +13836,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 138.43 120.65 0)
+			(at 128.27 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12684,7 +13847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 120.65 0)
+			(at 128.27 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12695,7 +13858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 138.43 120.65 0)
+			(at 128.27 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12874,9 +14037,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM21BR61H106KE43L_1")
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 114.3 151.13 90)
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 26.67 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12884,9 +14046,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "616092f2-d06e-4172-bd09-6c899d2fd0ca")
-		(property "Reference" "C21"
-			(at 115.316 149.352 90)
+		(uuid "61d19525-ed05-4685-9d09-40a690ccea68")
+		(property "Reference" "C3"
+			(at 28.702 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12897,7 +14059,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 115.062 153.416 90)
+			(at 28.702 151.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12907,8 +14069,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 124.46 151.13 0)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 36.83 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12918,8 +14080,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 114.173 153.416 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 26.543 153.416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12929,8 +14091,8 @@
 				)
 			)
 		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 114.3 151.13 0)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 26.67 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,8 +14102,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
-			(at 114.3 151.13 0)
+		(property "LCSC" "C19702"
+			(at 26.67 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12951,8 +14113,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 114.3 151.13 0)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 26.67 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12961,17 +14123,118 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "0b8affef-6619-48a1-92de-5e3236cee150")
 		)
 		(pin "1"
-			(uuid "ae5f4661-0a3c-4d86-b8cf-d8bd03a153b3")
+			(uuid "62b9f35b-35bb-4a99-b4ef-f1b950848976")
+		)
+		(pin "2"
+			(uuid "b9481470-70c7-45f3-916e-eef917c24334")
 		)
 		(instances
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C21")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:10KΩ_(1002)_±1%")
+		(at 120.65 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67862898-a4c7-4847-8548-80520896c6dd")
+		(property "Reference" "R18"
+			(at 120.65 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 120.65 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C25744_R0402"
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 118.364 123.063 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68d26a2c-3706-47f4-b860-40cd8a6dbd10")
+		)
+		(pin "2"
+			(uuid "47ca198f-d65a-411c-811f-eae91458d9e3")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13057,7 +14320,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 199.39 127 0)
+		(at 189.23 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13067,7 +14330,7 @@
 		(dnp no)
 		(uuid "68ee184e-bc95-4c77-99f6-165c3d9e88b8")
 		(property "Reference" "#PWR030"
-			(at 199.39 130.81 0)
+			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13078,7 +14341,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 202.184 124.206 0)
+			(at 192.024 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13088,7 +14351,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 199.39 127 0)
+			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13099,7 +14362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 127 0)
+			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13110,7 +14373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 199.39 127 0)
+			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13133,214 +14396,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 27.94 173.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "693f72ed-7a78-4dd4-bf96-f19eaac08a7c")
-		(property "Reference" "C19"
-			(at 29.718 172.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 29.21 176.276 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 38.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 27.813 176.276 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 27.94 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 27.94 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 27.94 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cc5ae98e-2f5d-4098-a7bf-0ecb1e7113bc")
-		)
-		(pin "1"
-			(uuid "95f16cf5-7a69-47c4-9d82-f8d311e948df")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 26.67 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f2704e5-f24d-4cb3-8e4f-8b3c4339b0a3")
-		(property "Reference" "C14"
-			(at 28.448 149.606 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 27.94 153.416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 36.83 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 26.543 153.416 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 26.67 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 26.67 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 26.67 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e7883ba9-c1a0-4682-84ea-f43ff8314650")
-		)
-		(pin "1"
-			(uuid "5e4aa157-4fa2-449f-8052-b63e9aa0f08b")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 195.58 119.38 0)
+		(at 185.42 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13351,7 +14408,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f81f76e-713a-4544-a484-e2356c968be9")
 		(property "Reference" "J3"
-			(at 198.12 118.1099 0)
+			(at 187.96 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13362,7 +14419,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 198.12 120.6499 0)
+			(at 187.96 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13373,7 +14430,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 195.58 119.38 0)
+			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13384,7 +14441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 119.38 0)
+			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13395,7 +14452,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 119.38 0)
+			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13529,7 +14586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 114.3 0)
+		(at 246.38 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13539,7 +14596,7 @@
 		(dnp no)
 		(uuid "720a3754-7309-42c8-8086-3b7aaccca3a1")
 		(property "Reference" "#PWR042"
-			(at 254 120.65 0)
+			(at 246.38 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13550,7 +14607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 258.572 114.554 0)
+			(at 250.952 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13560,7 +14617,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 254 114.3 0)
+			(at 246.38 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +14628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 114.3 0)
+			(at 246.38 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13582,7 +14639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 114.3 0)
+			(at 246.38 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,109 +14656,6 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 49.53 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "758862b5-7011-4f60-8b4e-8367e1de6cd0")
-		(property "Reference" "C17"
-			(at 51.308 149.606 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 50.8 153.416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 59.69 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 49.403 153.416 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 49.53 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 49.53 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 49.53 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bbd4eff7-26af-41aa-836c-9a42ec406174")
-		)
-		(pin "1"
-			(uuid "4e05182c-0585-41a7-a84f-a3c4bcd38412")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13803,6 +14757,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 27.94 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ec906ef-dd03-48ef-bfc8-6576c2d31e85")
+		(property "Reference" "C17"
+			(at 29.972 172.212 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 29.972 174.752 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 38.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 27.813 176.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b1e9495-7261-4604-b1bc-de9642e2700e")
+		)
+		(pin "2"
+			(uuid "00acc61f-e495-430a-a6ac-72ff1c17146c")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13912,7 +14969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 100.33 0)
+		(at 242.57 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13923,7 +14980,7 @@
 		(fields_autoplaced yes)
 		(uuid "8145db09-d832-4976-964d-92966ca63b2a")
 		(property "Reference" "#PWR026"
-			(at 251.46 106.68 0)
+			(at 242.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13934,7 +14991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 105.41 0)
+			(at 242.57 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13944,7 +15001,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 251.46 100.33 0)
+			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13955,7 +15012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 100.33 0)
+			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13966,7 +15023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 100.33 0)
+			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,85 +15040,6 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 262.89 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "833f117e-1ff2-4172-91a3-236603f8f550")
-		(property "Reference" "J2"
-			(at 265.43 25.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 265.43 27.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 262.89 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 262.89 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc68aeba-3655-4640-b80e-0ff369b9b3f4")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14146,110 +15124,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GRM21BR61H106KE43L_1")
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 63.5 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b014a45-21d6-4aa5-be88-eac19477d323")
-		(property "Reference" "C3"
-			(at 64.516 123.952 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 64.262 128.016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 73.66 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 63.373 128.016 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 63.5 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 63.5 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 63.5 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ac99675e-ee1e-45aa-9132-13a300f877b8")
-		)
-		(pin "1"
-			(uuid "5c75e791-3e7c-4153-a36a-6b6168edfc8c")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 113.03 43.18 0)
 		(unit 1)
@@ -14327,111 +15201,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 41.91 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e5ee7c9-9fcd-4d78-97bf-d121bf4485fd")
-		(property "Reference" "C11"
-			(at 43.688 126.746 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 43.18 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 52.07 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 41.783 130.556 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 41.91 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 41.91 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 41.91 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f67ede42-a7db-4217-832a-03b02572f15d")
-		)
-		(pin "1"
-			(uuid "44c79eeb-ef19-40c8-a36e-310f07d8da5c")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 237.49 119.38 0)
+		(at 229.87 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14441,7 +15212,7 @@
 		(dnp no)
 		(uuid "905e4eed-0874-479a-acb7-63747bd43883")
 		(property "Reference" "#PWR039"
-			(at 237.49 123.19 0)
+			(at 229.87 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14452,7 +15223,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 237.998 115.57 0)
+			(at 230.378 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14462,7 +15233,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 237.49 119.38 0)
+			(at 229.87 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14473,7 +15244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 119.38 0)
+			(at 229.87 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +15255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 237.49 119.38 0)
+			(at 229.87 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14605,6 +15376,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:HGC0603R5106M350NTHJ")
+		(at 34.29 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "914f2f34-19b8-4cff-97af-8906f831e9b4")
+		(property "Reference" "U7"
+			(at 35.56 126.492 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u 35V"
+			(at 30.226 131.572 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22367827_C0603"
+			(at 44.45 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+			(at 34.163 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HGC0603R5106M350NTHJ"
+			(at 34.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22367827"
+			(at 34.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 34.29 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9a653b0-9f58-4e04-b67a-393c8b51c593")
+		)
+		(pin "2"
+			(uuid "5b75b4bb-d4fb-4527-9a4f-939f37256f0e")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -14894,189 +15768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:BQ25798RQMR")
-		(at 151.13 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c6bf65c-c59a-4c12-acb2-32bdafac1066")
-		(property "Reference" "U1"
-			(at 151.13 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BQ25798RQMR"
-			(at 151.13 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C2876593_QFN-29_L4_0-W4_0-P0_40-TL-BQ25792RQMR"
-			(at 151.13 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/bq25798"
-			(at 148.844 64.643 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BQ25798RQMR"
-			(at 151.13 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2876593"
-			(at 151.13 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 151.13 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "29"
-			(uuid "ed16d747-31f6-49fe-a344-25ab044f1a61")
-		)
-		(pin "1"
-			(uuid "8d926fd0-4eed-419e-8842-c251a8c35fff")
-		)
-		(pin "27"
-			(uuid "377619a7-a681-4557-8d0b-efbf41a89f2b")
-		)
-		(pin "28"
-			(uuid "1229c2da-ffeb-4f4e-8750-a52a834e10e2")
-		)
-		(pin "15"
-			(uuid "2b874e69-a1ff-4d42-b69a-ad4f720b959d")
-		)
-		(pin "8"
-			(uuid "40999c20-8100-4983-a2c0-8c88def6824a")
-		)
-		(pin "2"
-			(uuid "497b3104-cef5-4c46-8345-be583087daaf")
-		)
-		(pin "6"
-			(uuid "4e479530-65d8-4991-99ca-d1d8153cf5ad")
-		)
-		(pin "26"
-			(uuid "cd563ce9-2429-48a0-9220-a81d0d32c209")
-		)
-		(pin "7"
-			(uuid "b7c9b32d-1e67-4c49-93ad-953fbe4e7e7e")
-		)
-		(pin "5"
-			(uuid "8a407590-1ea4-4048-b7d4-d89cbc6961d6")
-		)
-		(pin "3"
-			(uuid "591a2509-d343-4804-bbc4-b7ccc958eaaa")
-		)
-		(pin "4"
-			(uuid "6daa7cbe-5d50-482a-b676-363215a823e8")
-		)
-		(pin "19"
-			(uuid "a6a55cc9-8fdd-4fe3-9f10-52e1d16f56ff")
-		)
-		(pin "12"
-			(uuid "6cc10ea6-40b7-4be3-9cae-734cf3ebd7c4")
-		)
-		(pin "20"
-			(uuid "4c33d2a8-9010-44bb-bdf7-894b71deaf39")
-		)
-		(pin "23"
-			(uuid "ea2bbb6c-8298-4b2f-a865-936da0fc376c")
-		)
-		(pin "10"
-			(uuid "b2fd137c-706d-4a98-afa0-ee06753c55d5")
-		)
-		(pin "21"
-			(uuid "b933c25f-c269-4f5b-ba37-8b53343349f5")
-		)
-		(pin "22"
-			(uuid "3a2b3f14-c37b-4ae0-b3f6-a2cc7eb75815")
-		)
-		(pin "16"
-			(uuid "7e5c2c02-f2e7-4957-bbcb-d538a04fc06a")
-		)
-		(pin "11"
-			(uuid "81267e4b-52d5-4712-8431-3b4e252196b6")
-		)
-		(pin "14"
-			(uuid "78f04e81-2f39-4709-8d85-d81532f9d256")
-		)
-		(pin "13"
-			(uuid "087df395-b9f6-4614-932c-de9cfa5d61a2")
-		)
-		(pin "24"
-			(uuid "3d2545d4-020f-491e-ad8c-037fb5f1a58c")
-		)
-		(pin "9"
-			(uuid "4a04da67-de44-449a-bce8-794e0bb23b3f")
-		)
-		(pin "25"
-			(uuid "a81cf41c-d7f0-4f6e-9c58-040d3f1f6ef0")
-		)
-		(pin "18"
-			(uuid "13eb830a-8dd1-44f0-b421-38e8d8f7906e")
-		)
-		(pin "17"
-			(uuid "ac07cf00-f027-4da3-8cd2-e42554ca077b")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 15.24 101.6 0)
 		(unit 1)
@@ -15154,8 +15845,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 250.19 127 0)
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 41.91 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15163,10 +15854,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ec0f88f-2f77-42f3-97d1-5bee2d056cfe")
-		(property "Reference" "#PWR041"
-			(at 250.19 133.35 0)
+		(uuid "9df898cb-f57f-4797-8760-16c34f8f34f2")
+		(property "Reference" "C14"
+			(at 43.942 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 43.942 151.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 52.07 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15176,8 +15888,9 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 250.19 132.08 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 41.783 153.416 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15186,8 +15899,90 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 250.19 127 0)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 41.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 41.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 41.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "717bc5de-76fd-4c13-935b-9822cb8d143c")
+		)
+		(pin "2"
+			(uuid "0cae474c-1d9a-467c-8b6d-dc15001821fb")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 259.08 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e363775-2b70-406b-90bd-2f7028e074f6")
+		(property "Reference" "J4"
+			(at 261.62 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 261.62 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 259.08 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15198,7 +15993,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 127 0)
+			(at 259.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0c9102c8-52c5-4463-b21b-8f89818a7af4")
+		)
+		(pin "1"
+			(uuid "b18d16ee-075a-4d08-b002-c9944e4d8833")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec0f88f-2f77-42f3-97d1-5bee2d056cfe")
+		(property "Reference" "#PWR041"
+			(at 242.57 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C377773_C0805"
+			(at 242.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15209,7 +16085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 127 0)
+			(at 242.57 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15226,109 +16102,6 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 41.91 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a06e8ddf-5a3d-47e3-8b75-240c733a9c36")
-		(property "Reference" "C16"
-			(at 43.688 149.606 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 43.18 153.416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 52.07 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 41.783 153.416 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47ff5ba0-e7a0-4427-a19a-a309c35a0895")
-		)
-		(pin "1"
-			(uuid "4028129f-5b98-4ef7-acc3-b48a927d5458")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15438,7 +16211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 121.92 0)
+		(at 173.99 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15448,7 +16221,7 @@
 		(dnp no)
 		(uuid "a367d4d0-fb6d-4175-bfe8-fb52f1317895")
 		(property "Reference" "#PWR035"
-			(at 184.15 128.27 0)
+			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15459,7 +16232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.404 120.396 0)
+			(at 174.244 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15469,7 +16242,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 184.15 121.92 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15480,7 +16253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 121.92 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15491,7 +16264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 121.92 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15508,6 +16281,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:HGC0603R5106M350NTHJ")
+		(at 63.5 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6a47489-fb1b-486d-b634-f573b3ef43f1")
+		(property "Reference" "U1"
+			(at 64.77 123.952 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u 35V"
+			(at 59.436 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22367827_C0603"
+			(at 73.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+			(at 63.373 128.016 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HGC0603R5106M350NTHJ"
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22367827"
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "452865b9-e84a-42b8-85f4-875f5b7d411c")
+		)
+		(pin "2"
+			(uuid "cbcc4901-7bf6-49d1-958b-b4a5734c26bd")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15618,8 +16494,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 19.05 173.99 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 270.51 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15627,31 +16503,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "abeb7e7d-cd89-41cc-81c0-d60e38e4c0c3")
-		(property "Reference" "C18"
-			(at 20.828 172.466 90)
+		(fields_autoplaced yes)
+		(uuid "a9307522-6fa2-4eaf-a674-e92f5b58be54")
+		(property "Reference" "J2"
+			(at 273.05 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 20.32 176.276 90)
+		(property "Value" "Conn_01x02"
+			(at 273.05 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 29.21 173.99 0)
+		(property "Footprint" "lcsc_footprints:C2862876_QFN-29_L4_0-W4_0-P0_40-TL-BQ25792RQMR"
+			(at 270.51 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15661,8 +16538,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 18.923 176.276 0)
+		(property "Datasheet" ""
+			(at 270.51 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15672,30 +16549,8 @@
 				)
 			)
 		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 19.05 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 19.05 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 19.05 173.99 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15706,15 +16561,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "08ce1f2b-5d58-4a3f-9237-69c860fcbcca")
+			(uuid "03af6b6b-4cd3-4928-93e3-77ba938ee13d")
 		)
 		(pin "1"
-			(uuid "5463ad21-edcc-490e-8d0f-70ceb82ecf1e")
+			(uuid "52ec8456-ec4c-4aff-bfe2-f30816f407b0")
 		)
 		(instances
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C18")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15905,7 +16760,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:4_7KΩ_(4701)_±1%")
-		(at 208.28 135.89 90)
+		(at 198.12 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15915,7 +16770,7 @@
 		(dnp no)
 		(uuid "adb31018-532f-4062-92fd-ebe52981b879")
 		(property "Reference" "R14"
-			(at 204.47 135.636 0)
+			(at 194.31 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15925,7 +16780,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 206.248 135.636 0)
+			(at 196.088 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15935,7 +16790,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C25900_R0402"
-			(at 218.44 135.89 0)
+			(at 208.28 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15946,7 +16801,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
-			(at 208.153 138.176 0)
+			(at 197.993 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15957,7 +16812,7 @@
 			)
 		)
 		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 208.28 135.89 0)
+			(at 198.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15968,7 +16823,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 208.28 135.89 0)
+			(at 198.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15979,7 +16834,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 208.28 135.89 0)
+			(at 198.12 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16005,8 +16860,111 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 49.53 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ade338b1-4830-4368-9f2d-ecbef3a581bc")
+		(property "Reference" "C15"
+			(at 51.562 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 51.562 151.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 49.403 153.416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 49.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 49.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 49.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45a094ea-6932-4534-a298-b5bd861b84d6")
+		)
+		(pin "2"
+			(uuid "4f2c4d18-b7e2-4fb0-b895-c915c9396485")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 191.77 143.51 0)
+		(at 181.61 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16017,7 +16975,7 @@
 		(fields_autoplaced yes)
 		(uuid "aea444ac-a112-493e-bd42-81911b09a0a7")
 		(property "Reference" "TP2"
-			(at 194.31 140.2079 0)
+			(at 184.15 119.8879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16028,7 +16986,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 194.31 140.208 90)
+			(at 184.15 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16039,7 +16997,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 196.85 143.51 0)
+			(at 186.69 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,7 +17008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 143.51 0)
+			(at 186.69 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16061,7 +17019,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 191.77 143.51 0)
+			(at 181.61 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,7 +17043,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:HCMA-0630-2R2-M")
-		(at 195.58 49.53 270)
+		(at 195.58 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16096,7 +17054,7 @@
 		(fields_autoplaced yes)
 		(uuid "aeb22e73-d15e-477a-9f91-573dc306cd1d")
 		(property "Reference" "L1"
-			(at 198.12 48.2599 90)
+			(at 198.12 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16107,7 +17065,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 198.12 50.7999 90)
+			(at 198.12 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16118,7 +17076,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C49190166_IND-SMD_L7_0-W6_6_XR0624"
-			(at 185.42 49.53 0)
+			(at 185.42 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,7 +17087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.707 47.244 0)
+			(at 195.707 51.054 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16140,7 +17098,7 @@
 			)
 		)
 		(property "Description" "HCMA-0630-2R2-M"
-			(at 195.58 49.53 0)
+			(at 195.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,7 +17109,7 @@
 			)
 		)
 		(property "LCSC" "C49190166"
-			(at 195.58 49.53 0)
+			(at 195.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16162,7 +17120,7 @@
 			)
 		)
 		(property "Manufacturer" "YOUCHI(佑驰)"
-			(at 195.58 49.53 0)
+			(at 195.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16189,7 +17147,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:100KΩ_(1003)_±1%")
-		(at 251.46 95.25 90)
+		(at 242.57 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16200,7 +17158,7 @@
 		(fields_autoplaced yes)
 		(uuid "b027adf7-eaa0-410b-a0b0-0cee13b72856")
 		(property "Reference" "R12"
-			(at 254 93.9799 90)
+			(at 245.11 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16211,7 +17169,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 254 96.5199 90)
+			(at 245.11 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16222,7 +17180,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C25741_R0402"
-			(at 261.62 95.25 0)
+			(at 252.73 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16233,7 +17191,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 251.333 97.536 0)
+			(at 242.443 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16244,7 +17202,7 @@
 			)
 		)
 		(property "Description" "100KΩ (1003) ±1%"
-			(at 251.46 95.25 0)
+			(at 242.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16255,7 +17213,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 251.46 95.25 0)
+			(at 242.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16266,7 +17224,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 251.46 95.25 0)
+			(at 242.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16293,7 +17251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 49.53 0)
+		(at 170.18 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16303,7 +17261,7 @@
 		(dnp no)
 		(uuid "b1feb55d-ef8e-4e1a-81ce-e8959f78fdd0")
 		(property "Reference" "#PWR010"
-			(at 170.18 55.88 0)
+			(at 170.18 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16314,7 +17272,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 51.054 0)
+			(at 175.26 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16324,7 +17282,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 170.18 49.53 0)
+			(at 170.18 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16335,7 +17293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 49.53 0)
+			(at 170.18 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16346,7 +17304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 49.53 0)
+			(at 170.18 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16733,8 +17691,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc712a68-1cf2-4fd4-b001-6c9c45646478")
+		(property "Reference" "#FLG04"
+			(at 49.53 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18ef015a-5338-4c24-a99b-5c616e62de32")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:4_7KΩ_(4701)_±1%")
-		(at 199.39 135.89 90)
+		(at 189.23 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16744,7 +17781,7 @@
 		(dnp no)
 		(uuid "bc8390c1-545a-4490-911d-906db11eeffe")
 		(property "Reference" "R13"
-			(at 195.58 135.636 0)
+			(at 185.42 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16754,7 +17791,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 197.358 135.636 0)
+			(at 187.198 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16764,7 +17801,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C25900_R0402"
-			(at 209.55 135.89 0)
+			(at 199.39 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16775,7 +17812,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
-			(at 199.263 138.176 0)
+			(at 189.103 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16786,7 +17823,7 @@
 			)
 		)
 		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 199.39 135.89 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16797,7 +17834,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 199.39 135.89 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16808,7 +17845,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 199.39 135.89 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17018,7 +18055,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 138.43 124.46 270)
+		(at 128.27 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17028,7 +18065,7 @@
 		(dnp no)
 		(uuid "be01a8c2-5c7b-4232-9067-e5472dd13c18")
 		(property "Reference" "JP3"
-			(at 134.62 124.46 0)
+			(at 124.46 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17038,7 +18075,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 135.89 123.1901 90)
+			(at 125.73 102.8701 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17049,7 +18086,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 138.43 124.46 0)
+			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17060,7 +18097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 124.46 0)
+			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17071,7 +18108,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 138.43 124.46 0)
+			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17098,7 +18135,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 66.04 0)
+		(at 180.34 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17108,7 +18145,7 @@
 		(dnp no)
 		(uuid "be8c9cfd-e32f-4655-9a28-ca78dced127c")
 		(property "Reference" "#PWR028"
-			(at 180.34 72.39 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17119,7 +18156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.118 65.532 0)
+			(at 182.118 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17129,7 +18166,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 180.34 66.04 0)
+			(at 180.34 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17140,7 +18177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 66.04 0)
+			(at 180.34 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,7 +18188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 66.04 0)
+			(at 180.34 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17185,7 +18222,7 @@
 		(dnp no)
 		(uuid "c0db87c3-a540-4825-9e65-650344581d71")
 		(property "Reference" "C8"
-			(at 20.32 126.238 90)
+			(at 14.732 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17196,7 +18233,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 20.32 130.048 90)
+			(at 13.462 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17355,8 +18392,111 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:HGC0603R5106M350NTHJ")
+		(at 41.91 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c438f1cd-1c77-4696-ad10-8e38aba68266")
+		(property "Reference" "U8"
+			(at 43.18 126.492 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u 35V"
+			(at 37.846 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22367827_C0603"
+			(at 52.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+			(at 41.783 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HGC0603R5106M350NTHJ"
+			(at 41.91 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22367827"
+			(at 41.91 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 41.91 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6077bab6-dd12-4d07-abed-37a03634b086")
+		)
+		(pin "2"
+			(uuid "f026ff1b-e9e3-41c6-86cb-70d7d1d9e838")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 186.69 64.77 0)
+		(at 186.69 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17366,7 +18506,7 @@
 		(dnp no)
 		(uuid "c4751e68-7913-4aad-a84e-c88958c358d2")
 		(property "Reference" "#PWR015"
-			(at 186.69 71.12 0)
+			(at 186.69 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17377,7 +18517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.754 65.786 0)
+			(at 190.754 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17387,7 +18527,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 186.69 64.77 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17398,7 +18538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 64.77 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17409,7 +18549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 64.77 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17504,6 +18644,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 120.65 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7dc6ee2-7881-453a-bde9-861523548d44")
+		(property "Reference" "C21"
+			(at 122.682 135.382 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 122.682 137.922 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 130.81 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 120.523 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac0d302e-71a2-47dc-a6ff-8d7c97304080")
+		)
+		(pin "2"
+			(uuid "99f616fa-cec1-4547-808d-651abb8bbbb6")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17795,7 +19038,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 251.46 78.74 0)
+		(at 242.57 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17805,7 +19048,7 @@
 		(dnp no)
 		(uuid "cba97f69-d60f-47f5-9e8d-ba85eb64d993")
 		(property "Reference" "#PWR027"
-			(at 251.46 82.55 0)
+			(at 242.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17816,7 +19059,7 @@
 			)
 		)
 		(property "Value" "VREGN"
-			(at 248.666 75.184 0)
+			(at 239.776 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17826,7 +19069,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm"
-			(at 251.46 78.74 0)
+			(at 242.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17837,7 +19080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 78.74 0)
+			(at 242.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17848,7 +19091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 251.46 78.74 0)
+			(at 242.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17950,7 +19193,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 195.58 146.05 180)
+		(at 185.42 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17961,7 +19204,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdce5d69-48e2-429d-be1b-ea5b76574c6a")
 		(property "Reference" "TP3"
-			(at 197.485 149.3519 0)
+			(at 187.325 129.0319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17972,7 +19215,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 193.04 149.352 90)
+			(at 182.88 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17983,7 +19226,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 190.5 146.05 0)
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17994,7 +19237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 146.05 0)
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18005,7 +19248,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 195.58 146.05 0)
+			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18029,7 +19272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 143.51 0)
+		(at 121.92 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18039,7 +19282,7 @@
 		(dnp no)
 		(uuid "ce1cb601-4ca9-4996-accb-dffbb3333861")
 		(property "Reference" "#PWR033"
-			(at 129.54 149.86 0)
+			(at 121.92 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18050,7 +19293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127.254 140.97 0)
+			(at 119.634 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18060,7 +19303,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 129.54 143.51 0)
+			(at 121.92 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18071,7 +19314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 143.51 0)
+			(at 121.92 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18082,7 +19325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 143.51 0)
+			(at 121.92 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18543,7 +19786,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 205.74 72.39 0)
+		(at 205.74 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18553,7 +19796,7 @@
 		(dnp no)
 		(uuid "d4b4a8b2-d50e-4dd8-9a02-13b6600e8e58")
 		(property "Reference" "#PWR021"
-			(at 205.74 76.2 0)
+			(at 205.74 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18564,7 +19807,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 206.248 68.58 0)
+			(at 206.248 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18574,7 +19817,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 205.74 72.39 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18585,7 +19828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 72.39 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18596,7 +19839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 205.74 72.39 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18690,269 +19933,6 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 19.05 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0c506b4-f834-4bcd-899c-8398b5398049")
-		(property "Reference" "C13"
-			(at 20.828 149.606 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 20.32 153.416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 29.21 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 18.923 153.416 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 19.05 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C440198"
-			(at 19.05 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 19.05 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "13d1de04-be20-4cbd-b1f1-b787bf704217")
-		)
-		(pin "1"
-			(uuid "e6c13a1e-5dd7-40ed-a43a-a8acbc34d68b")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 114.3 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b17ed6-56ba-43a9-8e9d-16d021dab505")
-		(property "Reference" "#PWR032"
-			(at 114.3 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 114.3 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm"
-			(at 114.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 114.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26c28627-96b2-4b73-95cd-3c3898cf15db")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 259.08 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e70ff84b-a7ca-4b1f-93d6-00acb3afbfbd")
-		(property "Reference" "J4"
-			(at 261.62 153.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 261.62 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-46-3"
-			(at 259.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 259.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "649fbdaf-59a9-404d-9ebf-556f0778ff11")
-		)
-		(pin "1"
-			(uuid "fa830d0e-ae57-49b4-92f1-fc7e596adef8")
-		)
-		(instances
-			(project "MiniChargeController"
-				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19139,8 +20119,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c1aa77-af90-4f4a-9a2a-16fc9be83bac")
+		(property "Reference" "#FLG03"
+			(at 41.91 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32451442-22e5-4914-9387-4a7b4c32eedd")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:RC0402FR-07147KL")
-		(at 251.46 85.09 90)
+		(at 242.57 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19151,7 +20210,7 @@
 		(fields_autoplaced yes)
 		(uuid "f87064a1-2fa1-4564-924a-4d262a7419e2")
 		(property "Reference" "R10"
-			(at 254 83.8199 90)
+			(at 245.11 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19162,7 +20221,7 @@
 			)
 		)
 		(property "Value" "147k"
-			(at 254 86.3599 90)
+			(at 245.11 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19173,7 +20232,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C163489_R0402"
-			(at 261.62 85.09 0)
+			(at 252.73 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19184,7 +20243,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07147KL_C163489.pdf"
-			(at 251.333 87.376 0)
+			(at 242.443 87.376 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19195,7 +20254,7 @@
 			)
 		)
 		(property "Description" "RC0402FR-07147KL"
-			(at 251.46 85.09 0)
+			(at 242.57 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19206,7 +20265,7 @@
 			)
 		)
 		(property "LCSC" "C163489"
-			(at 251.46 85.09 0)
+			(at 242.57 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19217,7 +20276,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 251.46 85.09 0)
+			(at 242.57 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19237,6 +20296,109 @@
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:CL10A106KP8NNNC")
+		(at 34.29 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8b28067-a117-497a-9754-5f3e9b8a9466")
+		(property "Reference" "C13"
+			(at 36.322 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 36.322 151.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19702_C0603"
+			(at 44.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 34.163 153.416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL10A106KP8NNNC"
+			(at 34.29 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 34.29 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 34.29 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd877648-fc86-4531-8f9b-60c94608906f")
+		)
+		(pin "2"
+			(uuid "6f80c1a8-ef87-4d92-ba11-e64ade480cd5")
+		)
+		(instances
+			(project "MiniChargeController"
+				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -19424,7 +20586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 156.21 0)
+		(at 120.65 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19435,7 +20597,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc0e70c6-beb0-4f73-9823-1ab9fa952fb7")
 		(property "Reference" "#PWR031"
-			(at 114.3 162.56 0)
+			(at 120.65 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19446,7 +20608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 161.29 0)
+			(at 120.65 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19456,7 +20618,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C377773_C0805"
-			(at 114.3 156.21 0)
+			(at 120.65 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19467,7 +20629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 156.21 0)
+			(at 120.65 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19478,7 +20640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 156.21 0)
+			(at 120.65 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19501,8 +20663,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:GRM21BR61H106KE43L")
-		(at 34.29 151.13 90)
+		(lib_id "lcsc_imported:HGC0603R5106M350NTHJ")
+		(at 72.39 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19510,9 +20672,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fc305e73-05d6-4366-aa01-f4929edefb1f")
-		(property "Reference" "C15"
-			(at 36.068 149.606 90)
+		(uuid "fd4ea765-8a26-4d9b-a3f3-f42377e71b90")
+		(property "Reference" "U5"
+			(at 74.168 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19522,8 +20684,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 35.56 153.416 90)
+		(property "Value" "10u 35V"
+			(at 68.326 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19533,8 +20695,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C440198_C0805"
-			(at 44.45 151.13 0)
+		(property "Footprint" "lcsc_footprints:C22367827_C0603"
+			(at 82.55 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19544,8 +20706,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
-			(at 34.163 153.416 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+			(at 72.263 128.016 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19555,8 +20717,8 @@
 				)
 			)
 		)
-		(property "Description" "GRM21BR61H106KE43L"
-			(at 34.29 151.13 0)
+		(property "Description" "HGC0603R5106M350NTHJ"
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19566,8 +20728,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
-			(at 34.29 151.13 0)
+		(property "LCSC" "C22367827"
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19577,8 +20739,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 34.29 151.13 0)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19587,17 +20749,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "9ba88cf1-13f7-46ab-aff7-d0c5bd064ac9")
 		)
 		(pin "1"
-			(uuid "8f95a2b3-213e-4b7e-88c7-f31520c9ee94")
+			(uuid "e8f8f458-0605-41b6-88c5-11d612858fd3")
+		)
+		(pin "2"
+			(uuid "425b7462-62ab-40c6-bb26-dbd60c3f1f21")
 		)
 		(instances
 			(project "MiniChargeController"
 				(path "/b35b4552-f45c-4b02-b546-1657edfbb5c4"
-					(reference "C15")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -19605,7 +20767,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 104.14 36.83 0)
+		(at 80.01 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19616,7 +20778,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdab3e60-5338-4c72-be0d-2bd01f9e5979")
 		(property "Reference" "#FLG01"
-			(at 104.14 34.925 0)
+			(at 80.01 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19627,7 +20789,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 104.14 31.75 0)
+			(at 80.01 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19638,7 +20800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 36.83 0)
+			(at 80.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19649,7 +20811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 36.83 0)
+			(at 80.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19660,7 +20822,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 104.14 36.83 0)
+			(at 80.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19684,7 +20846,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:4_7KΩ_(4701)_±1%")
-		(at 172.72 67.31 0)
+		(at 172.72 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19694,7 +20856,7 @@
 		(dnp no)
 		(uuid "febdf377-5bc3-4646-821d-57f15f93022d")
 		(property "Reference" "R11"
-			(at 175.768 63.246 0)
+			(at 175.768 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19704,7 +20866,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 175.768 65.024 0)
+			(at 175.768 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19714,7 +20876,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C25900_R0402"
-			(at 172.72 77.47 0)
+			(at 172.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19725,7 +20887,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
-			(at 170.434 67.183 0)
+			(at 170.434 70.993 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19736,7 +20898,7 @@
 			)
 		)
 		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 172.72 67.31 0)
+			(at 172.72 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19747,7 +20909,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 172.72 67.31 0)
+			(at 172.72 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19758,7 +20920,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 172.72 67.31 0)
+			(at 172.72 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

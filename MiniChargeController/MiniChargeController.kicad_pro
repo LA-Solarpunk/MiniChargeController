@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -260,7 +260,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|1155700|1231900|68d26a2c-3706-47f4-b860-40cd8a6dbd10|00000000-0000-0000-0000-000000000000|/b35b4552-f45c-4b02-b546-1657edfbb5c4|/b35b4552-f45c-4b02-b546-1657edfbb5c4|",
+        ""
+      ],
+      [
+        "pin_not_driven|1244600|431800|6fb50901-6489-4698-969b-e73ac84d0ee2|00000000-0000-0000-0000-000000000000|/b35b4552-f45c-4b02-b546-1657edfbb5c4|/b35b4552-f45c-4b02-b546-1657edfbb5c4|",
+        ""
+      ],
+      [
+        "pin_not_driven|1257300|1231900|47ca198f-d65a-411c-811f-eae91458d9e3|00000000-0000-0000-0000-000000000000|/b35b4552-f45c-4b02-b546-1657edfbb5c4|/b35b4552-f45c-4b02-b546-1657edfbb5c4|",
+        ""
+      ],
+      [
+        "pin_not_driven|330200|723900|3d65748e-5f2b-48e0-b660-2a1d6871ced5|00000000-0000-0000-0000-000000000000|/b35b4552-f45c-4b02-b546-1657edfbb5c4|/b35b4552-f45c-4b02-b546-1657edfbb5c4|",
+        ""
+      ],
+      [
+        "pin_not_driven|330200|876300|c0e7a11d-0d4c-425d-a6b9-fff30ec8ed38|00000000-0000-0000-0000-000000000000|/b35b4552-f45c-4b02-b546-1657edfbb5c4|/b35b4552-f45c-4b02-b546-1657edfbb5c4|",
+        ""
+      ],
+      [
+        "pin_not_driven|457200|495300|d95b071c-5053-476f-800f-dd82bfc0a6c7|00000000-0000-0000-0000-000000000000|/b35b4552-f45c-4b02-b546-1657edfbb5c4|/b35b4552-f45c-4b02-b546-1657edfbb5c4|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -661,7 +686,7 @@
         "uuid": "b35b4552-f45c-4b02-b546-1657edfbb5c4"
       }
     ],
-    "used_designators": "L1,#FLG1-2,Q1-6,C1-22,U1-3,D1-3,R1-16,LED1,JP1-3,TP1-3,#PWR1-42,USB1,CN1,J1-5",
+    "used_designators": "L1,#FLG1-6,Q1-6,C1-25,U1-8,D1-3,R1-19,LED1,JP1-3,TP1-3,#PWR1-45,CN1,USB1,J1-5",
     "variants": []
   },
   "sheets": [

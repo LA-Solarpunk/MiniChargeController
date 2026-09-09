@@ -4836,4 +4836,916 @@
     )
   )
 
+
+(symbol "10nF_(103)_±10%_50V"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "10nF (103) ±10% 50V"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C15195_C0402"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "10nF (103) ±10% 50V"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C15195"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "SAMSUNG(三星)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "10nF_(103)_±10%_50V_1_1"
+      (polyline
+        (pts
+          (xy -0.5080010160020321 2.0320040640081283)
+          (xy -0.5080010160020321 -2.0320040640081283)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.5080010160020321 2.0320040640081283)
+          (xy 0.5080010160020321 -2.0320040640081283)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line
+        (at -3.81 -0.0 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin input line
+        (at 3.81 -0.0 180)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -1.27000254000508 -0.0)
+          (xy -0.5080010160020321 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.5080010160020321 -0.0)
+          (xy 1.27000254000508 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+
+
+(symbol "10KΩ_(1002)_±1%"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "R"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "10KΩ (1002) ±1%"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C25744_R0402"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "10KΩ (1002) ±1%"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C25744"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "UNI-ROYAL(厚声)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "10KΩ_(1002)_±1%_1_1"
+      (pin input line
+        (at 5.08 -0.0 180)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin input line
+        (at -5.08 -0.0 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (rectangle
+        (start -2.54000508001016 1.0160020320040641)
+        (end 2.54000508001016 -1.0160020320040641)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
+  )
+
+
+(symbol "BQ25792RQMR"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "BQ25792RQMR"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C2862876_QFN-29_L4_0-W4_0-P0_40-TL-BQ25792RQMR"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302220800_Texas-Instruments-BQ25792RQMR_C2862876.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "BQ25792RQMR"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C2862876"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "TI(德州仪器)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "BQ25792RQMR_1_1"
+      (rectangle
+        (start -13.97002794005588 20.32004064008128)
+        (end 13.97002794005588 -20.32004064008128)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -12.700025400050801 19.0500381000762)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -16.51 17.78 0)
+        (length 2.54)
+        (name "STAT"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 15.24 0)
+        (length 2.54)
+        (name "VBUS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 12.7 0)
+        (length 2.54)
+        (name "VBUS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 10.16 0)
+        (length 2.54)
+        (name "BTST1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "4"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 7.62 0)
+        (length 2.54)
+        (name "REGN"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 5.08 0)
+        (length 2.54)
+        (name "D+"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "6"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 2.54 0)
+        (length 2.54)
+        (name "D-"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -0.0 0)
+        (length 2.54)
+        (name "VAC2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "8"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -2.54 0)
+        (length 2.54)
+        (name "VAC1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "9"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -5.08 0)
+        (length 2.54)
+        (name "ACDRV2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "10"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -7.62 0)
+        (length 2.54)
+        (name "ACDRV1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "11"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -10.16 0)
+        (length 2.54)
+        (name "QON#"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "12"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -12.7 0)
+        (length 2.54)
+        (name "CE#"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "13"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -15.24 0)
+        (length 2.54)
+        (name "SCL"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "14"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -16.51 -17.78 0)
+        (length 2.54)
+        (name "SDA"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "15"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -16.51 180)
+        (length 2.54)
+        (name "TS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "16"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -13.97 180)
+        (length 2.54)
+        (name "ILIM_HIZ"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "17"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -11.43 180)
+        (length 2.54)
+        (name "BATP"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "18"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -8.89 180)
+        (length 2.54)
+        (name "BTST2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "19"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -6.35 180)
+        (length 2.54)
+        (name "PROG"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "20"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -3.81 180)
+        (length 2.54)
+        (name "INT#"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "21"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 -1.27 180)
+        (length 2.54)
+        (name "BAT"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "22"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 1.27 180)
+        (length 2.54)
+        (name "BAT"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "23"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 3.81 180)
+        (length 2.54)
+        (name "SDRV"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "24"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 6.35 180)
+        (length 2.54)
+        (name "SYS"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "25"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 8.89 180)
+        (length 2.54)
+        (name "SW2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "26"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 11.43 180)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "27"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 13.97 180)
+        (length 2.54)
+        (name "SW1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "28"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at 16.51 16.51 180)
+        (length 2.54)
+        (name "PMID"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "29"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+    )
+  )
+
+
+(symbol "HGC0603R5106M350NTHJ"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "HGC0603R5106M350NTHJ"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C22367827_C0603"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5106M350NTHJ_C22367827.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "HGC0603R5106M350NTHJ"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C22367827"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Chinocera(华瓷)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "HGC0603R5106M350NTHJ_1_1"
+      (polyline
+        (pts
+          (xy -102.10820421640844 74.16814833629668)
+          (xy -102.10820421640844 78.23215646431294)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -106.68 76.2 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -99.06019812039625 76.2001524003048)
+          (xy -101.09220218440437 76.2001524003048)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -101.09220218440437 78.23215646431294)
+          (xy -101.09220218440437 74.16814833629668)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -96.52 76.2 180)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -102.10820421640844 76.2001524003048)
+          (xy -104.14020828041656 76.2001524003048)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+
+
+(symbol "CL10A106KP8NNNC"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "CL10A106KP8NNNC"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C19702_C0603"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "CL10A106KP8NNNC"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C19702"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "SAMSUNG(三星)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "CL10A106KP8NNNC_1_1"
+      (polyline
+        (pts
+          (xy -0.5080010160020321 -2.0320040640081283)
+          (xy -0.5080010160020321 2.0320040640081283)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -5.08 -0.0 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 -0.0)
+          (xy 0.5080010160020321 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.5080010160020321 2.0320040640081283)
+          (xy 0.5080010160020321 -2.0320040640081283)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -0.0 180)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (polyline
+        (pts
+          (xy -0.5080010160020321 -0.0)
+          (xy -2.54000508001016 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+
 )
